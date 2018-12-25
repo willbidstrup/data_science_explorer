@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Will Bidstrup">
+    <meta name="description" content="/">
+    <meta name="keywords" content="blog,developer,personal">
+    
+    <meta property="og:site_name" content="Data Science Explorer">
+    <meta property="og:title" content="
+  Finding a house to rent with R - Data Science Explorer
+">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/post/finding-a-house-to-rent-with-r/">
+    <meta property="og:image" content="/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="/post/finding-a-house-to-rent-with-r/">
+    <meta name="twitter:image" content="/">
+
+    <base href="/">
+    <title>
+  Finding a house to rent with R - Data Science Explorer
+</title>
+
+    <link rel="canonical" href="/post/finding-a-house-to-rent-with-r/">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    
+
+    <meta name="generator" content="Hugo 0.41" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">Data Science Explorer</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="/post/">Blog</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>Finding a house to rent with R</h1>
+    </header>
+
+    <p>I find myself in a real world situation where web scraping will be useful. I’ve never tried it before, this will be my first go at getting something happening.</p>
+<p>My objective is to collect information from <a href="https://www.realestate.com.au/rent/">realestate.com.au</a> to help me understand the market before moving to Adelaide.</p>
+<p>I’ll be using the ‘rvest’ package and hacking my way through while reffining to a couple of tutorials <a href="https://www.analyticsvidhya.com/blog/2017/03/beginners-guide-on-web-scraping-in-r-using-rvest-with-hands-on-knowledge/">here</a> and <a href="https://www.datacamp.com/community/tutorials/r-web-scraping-rvest">here</a>.</p>
+<pre class="r"><code>library(tidyverse) # For everything
+library(rvest) # For some prettier themes</code></pre>
+<div id="scraping-a-single-page" class="section level1">
+<h1>Scraping a single page</h1>
+<p>I start with a simple rental search for properties between 300 and 450 per week with minumum 3 bedrooms.</p>
+<pre class="r"><code>url &lt;- &quot;https://www.realestate.com.au/rent/property-unitblock-villa-townhouse-unit+apartment-house-with-3-bedrooms-between-300-450-in-adelaide,+sa+5000/list-1&quot;</code></pre>
+<pre class="r"><code>webpage &lt;- read_html(url)</code></pre>
+<p>I will start with weekly Price which is defined as .priceText</p>
+<pre class="r"><code>price_data_html &lt;- html_nodes(webpage,&#39;.priceText&#39;)
+
+price_data &lt;- html_text(price_data_html)
+
+head(price_data)</code></pre>
+<pre><code>## [1] &quot;$340 per week&quot;    &quot;$400 per week&quot;    &quot;$750 per week&quot;   
+## [4] &quot;$450 per week&quot;    &quot;$420 - $440&quot;      &quot;$385 - $400 / Wk&quot;</code></pre>
+<p>Then the number of bedrooms, bathrooms and carspaces which is simply dd</p>
+<pre class="r"><code>beds_data_html &lt;- html_nodes(webpage,&#39;dd&#39;)
+
+beds_data &lt;- html_text(beds_data_html)
+
+head(beds_data)</code></pre>
+<pre><code>## [1] &quot;3&quot; &quot;1&quot; &quot;1&quot; &quot;3&quot; &quot;1&quot; &quot;1&quot;</code></pre>
+</div>
+<div id="refining-the-elements" class="section level1">
+<h1>Refining the elements</h1>
+</div>
+<div id="running-the-scraping-over-all-items" class="section level1">
+<h1>Running the scraping over all items</h1>
+</div>
+
+  </article>
+</section>
+
+
+      </div>
+      
+    </main>
+
+    
+
+  <script src="/js/app.js"></script>
+  
+  </body>
+</html>

@@ -1,0 +1,70 @@
+---
+title: Finding a house to rent with R
+author: Will Bidstrup
+date: '2018-12-25'
+slug: finding-a-house-to-rent-with-r
+categories:
+  - R
+tags:
+  - R
+---
+
+I find myself in a real world situation where web scraping will be useful. I've never tried it before, this will be my first go at getting something happening.  
+
+My objective is to collect information from [realestate.com.au](https://www.realestate.com.au/rent/) to help me understand the market before moving to Adelaide.  
+
+I'll be using the 'rvest' package and hacking my way through while reffining to a couple of tutorials [here](https://www.analyticsvidhya.com/blog/2017/03/beginners-guide-on-web-scraping-in-r-using-rvest-with-hands-on-knowledge/) and [here](https://www.datacamp.com/community/tutorials/r-web-scraping-rvest).  
+
+```{r, include = FALSE}
+install.packages("rvest", repos="http://cran.rstudio.com/")
+
+```
+
+
+```{r, message = FALSE}
+library(tidyverse) # For everything
+library(rvest) # For some prettier themes
+```
+
+
+# Scraping a single page
+
+I start with a simple rental search for properties between 300 and 450 per week with minumum 3 bedrooms.  
+
+```{r}
+url <- "https://www.realestate.com.au/rent/property-unitblock-villa-townhouse-unit+apartment-house-with-3-bedrooms-between-300-450-in-adelaide,+sa+5000/list-1"
+```
+
+
+```{r}
+webpage <- read_html(url)
+```
+
+I will start with weekly Price which is defined as .priceText
+
+```{r}
+price_data_html <- html_nodes(webpage,'.priceText')
+
+price_data <- html_text(price_data_html)
+
+head(price_data)
+```
+
+Then the number of bedrooms, bathrooms and carspaces which is simply dd
+
+
+```{r}
+beds_data_html <- html_nodes(webpage,'dd')
+
+beds_data <- html_text(beds_data_html)
+
+head(beds_data)
+```
+
+
+# Refining the elements
+
+
+
+
+# Running the scraping over all items

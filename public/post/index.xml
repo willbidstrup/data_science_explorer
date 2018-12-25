@@ -6,10 +6,22 @@
     <description>Recent content in Posts on Data Science Explorer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Finding a house to rent with R</title>
+      <link>/post/finding-a-house-to-rent-with-r/</link>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/finding-a-house-to-rent-with-r/</guid>
+      <description>I find myself in a real world situation where web scraping will be useful. I’ve never tried it before, this will be my first go at getting something happening.
+My objective is to collect information from realestate.com.au to help me understand the market before moving to Adelaide.
+I’ll be using the ‘rvest’ package and hacking my way through while reffining to a couple of tutorials here and here.
+library(tidyverse) # For everything library(rvest) # For some prettier themes Scraping a single page I start with a simple rental search for properties between 300 and 450 per week with minumum 3 bedrooms.</description>
+    </item>
     
     <item>
       <title>Setting yearly targets with Deep Work Supervisor</title>

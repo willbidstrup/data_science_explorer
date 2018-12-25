@@ -1,0 +1,45 @@
+---
+title: Finding a house to rent with R
+author: Will Bidstrup
+date: '2018-12-25'
+slug: finding-a-house-to-rent-with-r
+categories:
+  - R
+tags:
+  - R
+---
+
+
+
+<p>I find myself in a real world situation where web scraping will be useful. I’ve never tried it before, this will be my first go at getting something happening.</p>
+<p>My objective is to collect information from <a href="https://www.realestate.com.au/rent/">realestate.com.au</a> to help me understand the market before moving to Adelaide.</p>
+<p>I’ll be using the ‘rvest’ package and hacking my way through while reffining to a couple of tutorials <a href="https://www.analyticsvidhya.com/blog/2017/03/beginners-guide-on-web-scraping-in-r-using-rvest-with-hands-on-knowledge/">here</a> and <a href="https://www.datacamp.com/community/tutorials/r-web-scraping-rvest">here</a>.</p>
+<pre class="r"><code>library(tidyverse) # For everything
+library(rvest) # For some prettier themes</code></pre>
+<div id="scraping-a-single-page" class="section level1">
+<h1>Scraping a single page</h1>
+<p>I start with a simple rental search for properties between 300 and 450 per week with minumum 3 bedrooms.</p>
+<pre class="r"><code>url &lt;- &quot;https://www.realestate.com.au/rent/property-unitblock-villa-townhouse-unit+apartment-house-with-3-bedrooms-between-300-450-in-adelaide,+sa+5000/list-1&quot;</code></pre>
+<pre class="r"><code>webpage &lt;- read_html(url)</code></pre>
+<p>I will start with weekly Price which is defined as .priceText</p>
+<pre class="r"><code>price_data_html &lt;- html_nodes(webpage,&#39;.priceText&#39;)
+
+price_data &lt;- html_text(price_data_html)
+
+head(price_data)</code></pre>
+<pre><code>## [1] &quot;$340 per week&quot;    &quot;$400 per week&quot;    &quot;$750 per week&quot;   
+## [4] &quot;$450 per week&quot;    &quot;$420 - $440&quot;      &quot;$385 - $400 / Wk&quot;</code></pre>
+<p>Then the number of bedrooms, bathrooms and carspaces which is simply dd</p>
+<pre class="r"><code>beds_data_html &lt;- html_nodes(webpage,&#39;dd&#39;)
+
+beds_data &lt;- html_text(beds_data_html)
+
+head(beds_data)</code></pre>
+<pre><code>## [1] &quot;3&quot; &quot;1&quot; &quot;1&quot; &quot;3&quot; &quot;1&quot; &quot;1&quot;</code></pre>
+</div>
+<div id="refining-the-elements" class="section level1">
+<h1>Refining the elements</h1>
+</div>
+<div id="running-the-scraping-over-all-items" class="section level1">
+<h1>Running the scraping over all items</h1>
+</div>
