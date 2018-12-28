@@ -32,7 +32,7 @@ library(tidyverse) # For everything library(rvest) # For some prettier themes Sc
       <description>The Deep Work Supervisor tells you how much deep work you have been doing.
 Today I&amp;rsquo;m going to play around with setting targets.
 A big TODO is to check out packrat.
-library(here)## here() starts at /Users/williambidstrup/Documents/GitHub/dse_livelibrary(tidyverse)## ── Attaching packages ───────────────────────────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ──## ✔ ggplot2 3.0.0 ✔ purrr 0.2.5 ## ✔ tibble 1.4.2 ✔ dplyr 0.7.6 ## ✔ tidyr 0.8.1 ✔ stringr 1.3.1 ## ✔ readr 1.1.1 ✔ forcats 0.</description>
+library(here)## here() starts at /Users/williambidstrup/Documents/GitHub/data_science_explorerlibrary(tidyverse)## ── Attaching packages ────────────────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ──## ✔ ggplot2 3.0.0 ✔ purrr 0.2.5 ## ✔ tibble 1.4.2 ✔ dplyr 0.7.6 ## ✔ tidyr 0.8.1 ✔ stringr 1.3.1 ## ✔ readr 1.1.1 ✔ forcats 0.</description>
     </item>
     
     <item>

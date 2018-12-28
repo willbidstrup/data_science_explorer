@@ -90,10 +90,10 @@
 <p>Today I&rsquo;m going to play around with setting targets.</p>
 
 <p>A big TODO is to check out <a href="https://rstudio.github.io/packrat/">packrat</a>.</p>
-<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="kn">library</span><span class="p">(</span>here<span class="p">)</span></code></pre></div><div class="highlight"><pre class="chroma">## here() starts at /Users/williambidstrup/Documents/GitHub/dse_live</pre></div><div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="kn">library</span><span class="p">(</span>tidyverse<span class="p">)</span></code></pre></div><div class="highlight"><pre class="chroma">## ── Attaching packages ───────────────────────────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ──</pre></div><div class="highlight"><pre class="chroma">## ✔ ggplot2 3.0.0     ✔ purrr   0.2.5
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="kn">library</span><span class="p">(</span>here<span class="p">)</span></code></pre></div><div class="highlight"><pre class="chroma">## here() starts at /Users/williambidstrup/Documents/GitHub/data_science_explorer</pre></div><div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="kn">library</span><span class="p">(</span>tidyverse<span class="p">)</span></code></pre></div><div class="highlight"><pre class="chroma">## ── Attaching packages ────────────────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ──</pre></div><div class="highlight"><pre class="chroma">## ✔ ggplot2 3.0.0     ✔ purrr   0.2.5
 ## ✔ tibble  1.4.2     ✔ dplyr   0.7.6
 ## ✔ tidyr   0.8.1     ✔ stringr 1.3.1
-## ✔ readr   1.1.1     ✔ forcats 0.3.0</pre></div><div class="highlight"><pre class="chroma">## ── Conflicts ──────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+## ✔ readr   1.1.1     ✔ forcats 0.3.0</pre></div><div class="highlight"><pre class="chroma">## ── Conflicts ───────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
 ## ✖ dplyr::filter() masks stats::filter()
 ## ✖ dplyr::lag()    masks stats::lag()</pre></div><div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="kn">library</span><span class="p">(</span>padr<span class="p">)</span></code></pre></div>
 <p>Here is the year of 2019.</p>
@@ -103,11 +103,94 @@
 dates <span class="o">&lt;-</span> <span class="kp">as.data.frame</span><span class="p">(</span>dates<span class="p">)</span>
 dates  <span class="o">&lt;-</span> dates <span class="o">%&gt;%</span>
   pad<span class="p">()</span></code></pre></div><div class="highlight"><pre class="chroma">## pad applied on the interval: day</pre></div>
+<h1 id="treating-workdays-differently-to-weekends-and-vacation">Treating workdays differently to weekends and vacation</h1>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Identify the weekends</span>
+weekends <span class="o">&lt;-</span> dates<span class="o">$</span>dates<span class="p">[</span><span class="kp">weekdays</span><span class="p">(</span>dates<span class="o">$</span>dates<span class="p">)</span> <span class="o">%in%</span> <span class="kt">c</span><span class="p">(</span><span class="s">&#34;Saturday&#34;</span><span class="p">,</span> <span class="s">&#34;Sunday&#34;</span><span class="p">)]</span>  
+
+<span class="c1"># Identify public holidays</span>
+public_holidays <span class="o">&lt;-</span> <span class="kp">as.Date</span><span class="p">(</span><span class="kt">c</span><span class="p">(</span><span class="s">&#34;2019-01-01&#34;</span><span class="p">,</span> <span class="s">&#34;2019-01-28&#34;</span><span class="p">,</span> <span class="s">&#34;2019-03-11&#34;</span><span class="p">,</span> <span class="s">&#34;2019-04-19&#34;</span><span class="p">,</span>
+                             <span class="s">&#34;2019-04-20&#34;</span><span class="p">,</span> <span class="s">&#34;2019-04-22&#34;</span><span class="p">,</span> <span class="s">&#34;2019-04-25&#34;</span><span class="p">,</span> <span class="s">&#34;2019-06-10&#34;</span><span class="p">,</span>
+                             <span class="s">&#34;2019-10-07&#34;</span><span class="p">,</span> <span class="s">&#34;2019-12-24&#34;</span><span class="p">,</span> <span class="s">&#34;2019-12-25&#34;</span><span class="p">,</span> <span class="s">&#34;2019-12-26&#34;</span><span class="p">,</span> <span class="s">&#34;2019-12-31&#34;</span><span class="p">))</span>
+
+<span class="c1"># Identify vacation days x 20</span>
+vacations <span class="o">&lt;-</span> <span class="kp">as.Date</span><span class="p">(</span><span class="kt">c</span><span class="p">(</span><span class="s">&#34;2019-03-04&#34;</span><span class="p">,</span> <span class="s">&#34;2019-03-05&#34;</span><span class="p">,</span> <span class="s">&#34;2019-03-06&#34;</span><span class="p">,</span> <span class="s">&#34;2019-03-07&#34;</span><span class="p">,</span> <span class="s">&#34;2019-03-08&#34;</span><span class="p">,</span>
+                      <span class="s">&#34;2019-07-01&#34;</span><span class="p">,</span> <span class="s">&#34;2019-07-02&#34;</span><span class="p">,</span> <span class="s">&#34;2019-07-03&#34;</span><span class="p">,</span> <span class="s">&#34;2019-07-04&#34;</span><span class="p">,</span> <span class="s">&#34;2019-07-05&#34;</span><span class="p">,</span>
+                      <span class="s">&#34;2019-09-16&#34;</span><span class="p">,</span> <span class="s">&#34;2019-09-17&#34;</span><span class="p">,</span> <span class="s">&#34;2019-09-18&#34;</span><span class="p">,</span> <span class="s">&#34;2019-09-19&#34;</span><span class="p">,</span> <span class="s">&#34;2019-09-20&#34;</span><span class="p">,</span>
+                      <span class="s">&#34;2019-11-04&#34;</span><span class="p">,</span> <span class="s">&#34;2019-11-05&#34;</span><span class="p">,</span> <span class="s">&#34;2019-11-06&#34;</span><span class="p">,</span> <span class="s">&#34;2019-11-07&#34;</span><span class="p">,</span> <span class="s">&#34;2019-11-08&#34;</span><span class="p">))</span>
+
+<span class="c1"># Create tags</span>
+dates<span class="o">$</span>day_type <span class="o">&lt;-</span> <span class="kp">ifelse</span><span class="p">(</span>dates<span class="o">$</span>dates <span class="o">%in%</span> vacations<span class="p">,</span> <span class="s">&#34;vacation&#34;</span><span class="p">,</span>
+                         <span class="kp">ifelse</span><span class="p">(</span>dates<span class="o">$</span>dates <span class="o">%in%</span> public_holidays<span class="p">,</span> <span class="s">&#34;public_holiday&#34;</span><span class="p">,</span> 
+                                <span class="kp">ifelse</span><span class="p">(</span>dates<span class="o">$</span>dates <span class="o">%in%</span> weekends<span class="p">,</span> <span class="s">&#34;weekend&#34;</span><span class="p">,</span> <span class="s">&#34;work&#34;</span><span class="p">)))</span>
+
+<span class="kp">summary</span><span class="p">(</span><span class="kp">as.factor</span><span class="p">(</span>dates<span class="o">$</span>day_type<span class="p">))</span></code></pre></div><div class="highlight"><pre class="chroma">## public_holiday       vacation        weekend           work 
+##             13             20            103            229</pre></div>
 <h1 id="setting-target-number-of-intervals">Setting target number of intervals</h1>
 
 <p>I like to do my deep work intervals at 25 minutes.  I need to choose if I will set and manage targets based on number of intervals or time elapsed.  Number of intervals probably makes the most sense, from there I can always convert to hours if needed.</p>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Study</span>
+<span class="c1"># Wealth</span>
+<span class="c1"># Craft</span>
+<span class="c1"># Work</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Study target</span>
+dates<span class="o">$</span>study_target <span class="o">&lt;-</span> <span class="kp">ifelse</span><span class="p">(</span>dates<span class="o">$</span>dates <span class="o">%in%</span> vacations<span class="p">,</span> <span class="m">0</span><span class="p">,</span>
+                         <span class="kp">ifelse</span><span class="p">(</span>dates<span class="o">$</span>dates <span class="o">%in%</span> public_holidays<span class="p">,</span> <span class="m">0</span><span class="p">,</span> 
+                                <span class="kp">ifelse</span><span class="p">(</span>dates<span class="o">$</span>dates <span class="o">%in%</span> weekends<span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">4</span><span class="p">)))</span>
 
-<h1 id="treating-workdays-differently-to-weekends-and-vacation">Treating workdays differently to weekends and vacation</h1>
+study_total_sessions <span class="o">&lt;-</span> <span class="kp">sum</span><span class="p">(</span>dates<span class="o">$</span>study_target<span class="p">)</span>
+study_total_minutes <span class="o">&lt;-</span> study_total_sessions <span class="o">*</span> <span class="m">25</span>
+study_total_hours <span class="o">&lt;-</span> <span class="kp">round</span><span class="p">(</span>study_total_minutes <span class="o">/</span> <span class="m">60</span><span class="p">)</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Wealth target</span>
+dates<span class="o">$</span>wealth_target <span class="o">&lt;-</span> <span class="kp">ifelse</span><span class="p">(</span>dates<span class="o">$</span>dates <span class="o">%in%</span> vacations<span class="p">,</span> <span class="m">0</span><span class="p">,</span>
+                         <span class="kp">ifelse</span><span class="p">(</span>dates<span class="o">$</span>dates <span class="o">%in%</span> public_holidays<span class="p">,</span> <span class="m">0</span><span class="p">,</span> 
+                                <span class="kp">ifelse</span><span class="p">(</span>dates<span class="o">$</span>dates <span class="o">%in%</span> weekends<span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">2</span><span class="p">)))</span>
+
+wealth_total_sessions <span class="o">&lt;-</span> <span class="kp">sum</span><span class="p">(</span>dates<span class="o">$</span>wealth_target<span class="p">)</span>
+wealth_total_minutes <span class="o">&lt;-</span> wealth_total_sessions <span class="o">*</span> <span class="m">25</span>
+wealth_total_hours <span class="o">&lt;-</span> <span class="kp">round</span><span class="p">(</span>wealth_total_minutes <span class="o">/</span> <span class="m">60</span><span class="p">)</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Craft target</span>
+dates<span class="o">$</span>craft_target <span class="o">&lt;-</span> <span class="kp">ifelse</span><span class="p">(</span>dates<span class="o">$</span>dates <span class="o">%in%</span> vacations<span class="p">,</span> <span class="m">4</span><span class="p">,</span>
+                         <span class="kp">ifelse</span><span class="p">(</span>dates<span class="o">$</span>dates <span class="o">%in%</span> public_holidays<span class="p">,</span> <span class="m">0</span><span class="p">,</span> 
+                                <span class="kp">ifelse</span><span class="p">(</span>dates<span class="o">$</span>dates <span class="o">%in%</span> weekends<span class="p">,</span> <span class="m">4</span><span class="p">,</span> <span class="m">2</span><span class="p">)))</span>
+
+craft_total_sessions <span class="o">&lt;-</span> <span class="kp">sum</span><span class="p">(</span>dates<span class="o">$</span>craft_target<span class="p">)</span>
+craft_total_minutes <span class="o">&lt;-</span> craft_total_sessions <span class="o">*</span> <span class="m">25</span>
+craft_total_hours <span class="o">&lt;-</span> <span class="kp">round</span><span class="p">(</span>craft_total_minutes <span class="o">/</span> <span class="m">60</span><span class="p">)</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Work target</span>
+dates<span class="o">$</span>work_target <span class="o">&lt;-</span> <span class="kp">ifelse</span><span class="p">(</span>dates<span class="o">$</span>dates <span class="o">%in%</span> vacations<span class="p">,</span> <span class="m">0</span><span class="p">,</span>
+                         <span class="kp">ifelse</span><span class="p">(</span>dates<span class="o">$</span>dates <span class="o">%in%</span> public_holidays<span class="p">,</span> <span class="m">0</span><span class="p">,</span> 
+                                <span class="kp">ifelse</span><span class="p">(</span>dates<span class="o">$</span>dates <span class="o">%in%</span> weekends<span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">12</span><span class="p">)))</span>
+
+work_total_sessions <span class="o">&lt;-</span> <span class="kp">sum</span><span class="p">(</span>dates<span class="o">$</span>work_target<span class="p">)</span>
+work_total_minutes <span class="o">&lt;-</span> work_total_sessions <span class="o">*</span> <span class="m">25</span>
+work_total_hours <span class="o">&lt;-</span> work_total_minutes <span class="o">/</span> <span class="m">60</span>
+
+work_deepwork_efficiency <span class="o">&lt;-</span> <span class="kp">round</span><span class="p">(</span>work_total_hours <span class="o">/</span> <span class="m">2080</span><span class="p">,</span> digits <span class="o">=</span> <span class="m">2</span><span class="p">)</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Total target</span>
+dates<span class="o">$</span>total_target <span class="o">&lt;-</span> dates<span class="o">$</span>study_target <span class="o">+</span> dates<span class="o">$</span>wealth_target <span class="o">+</span> dates<span class="o">$</span>craft_target <span class="o">+</span> dates<span class="o">$</span>work_target
+
+total_deepwork_sessions <span class="o">&lt;-</span> <span class="kp">sum</span><span class="p">(</span>dates<span class="o">$</span>total_target<span class="p">)</span>
+total_deepwork_minutes <span class="o">&lt;-</span> total_deepwork_sessions <span class="o">*</span> <span class="m">25</span>
+total_deepwork_hours <span class="o">&lt;-</span> total_deepwork_minutes <span class="o">/</span> <span class="m">60</span>
+
+total_deepwork_efficiency <span class="o">&lt;-</span> <span class="kp">round</span><span class="p">(</span>total_deepwork_hours <span class="o">/</span> <span class="m">2920</span><span class="p">,</span> digits <span class="o">=</span> <span class="m">2</span><span class="p">)</span></code></pre></div>
+<h1 id="tidy">Tidy</h1>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="kp">names</span><span class="p">(</span>dates<span class="p">)</span></code></pre></div><div class="highlight"><pre class="chroma">## [1] &#34;dates&#34;         &#34;day_type&#34;      &#34;study_target&#34;  &#34;wealth_target&#34;
+## [5] &#34;craft_target&#34;  &#34;work_target&#34;   &#34;total_target&#34;</pre></div><div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">dates_tidy <span class="o">&lt;-</span> dates <span class="o">%&gt;%</span>
+  select<span class="p">(</span> dates<span class="p">,</span> day_type<span class="p">,</span> study_target<span class="p">,</span> wealth_target<span class="p">,</span> craft_target<span class="p">,</span> work_target<span class="p">)</span> <span class="o">%&gt;%</span>
+  gather<span class="p">(</span>session_type<span class="p">,</span> session_count<span class="p">,</span> <span class="m">3</span><span class="o">:</span><span class="m">6</span><span class="p">)</span> <span class="o">%&gt;%</span>
+  mutate<span class="p">(</span>session_hours <span class="o">=</span> <span class="kp">round</span><span class="p">((</span>session_count <span class="o">*</span> <span class="m">25</span><span class="p">)</span> <span class="o">/</span> <span class="m">60</span><span class="p">))</span></code></pre></div>
+<h1 id="the-intentional-year">The intentional year</h1>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">ggplot<span class="p">(</span>data <span class="o">=</span> dates_tidy<span class="p">,</span> aes<span class="p">(</span>x <span class="o">=</span> dates<span class="p">,</span> y <span class="o">=</span> session_hours<span class="p">,</span> fill <span class="o">=</span> session_type<span class="p">))</span> <span class="o">+</span>
+  geom_bar<span class="p">(</span>stat <span class="o">=</span> <span class="s">&#34;identity&#34;</span><span class="p">)</span> <span class="o">+</span>
+  theme_minimal<span class="p">()</span></code></pre></div>
+<p><img src="/post/2018-12-24-setting-yearly-targets-with-deep-work-supervisor_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">ggplot<span class="p">(</span>data <span class="o">=</span> dates_tidy<span class="p">,</span> aes<span class="p">(</span>x <span class="o">=</span> dates<span class="p">,</span> y <span class="o">=</span> session_hours<span class="p">,</span> fill <span class="o">=</span> session_type<span class="p">))</span> <span class="o">+</span>
+  geom_bar<span class="p">(</span>stat <span class="o">=</span> <span class="s">&#34;identity&#34;</span><span class="p">)</span> <span class="o">+</span>
+  facet_grid<span class="p">(</span><span class="m">.</span> <span class="o">~</span> session_type<span class="p">)</span> <span class="o">+</span>
+  theme_minimal<span class="p">()</span></code></pre></div>
+<p><img src="/post/2018-12-24-setting-yearly-targets-with-deep-work-supervisor_files/figure-html/unnamed-chunk-12-1.png" width="672" /></p>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r">ggplot<span class="p">(</span>data <span class="o">=</span> dates_tidy <span class="o">%&gt;%</span>
+         group_by<span class="p">(</span>session_type<span class="p">)</span> <span class="o">%&gt;%</span>
+         summarise<span class="p">(</span>hours <span class="o">=</span> <span class="kp">sum</span><span class="p">(</span>session_hours<span class="p">)),</span> aes<span class="p">(</span>x <span class="o">=</span> <span class="s">&#34;&#34;</span><span class="p">,</span> y <span class="o">=</span> hours<span class="p">,</span> fill <span class="o">=</span> session_type<span class="p">))</span> <span class="o">+</span>
+  geom_bar<span class="p">(</span>stat <span class="o">=</span> <span class="s">&#34;identity&#34;</span><span class="p">,</span> position <span class="o">=</span> <span class="s">&#34;fill&#34;</span><span class="p">)</span> <span class="o">+</span>
+  theme_minimal<span class="p">()</span></code></pre></div>
+<p><img src="/post/2018-12-24-setting-yearly-targets-with-deep-work-supervisor_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
 
   </article>
 </section>
