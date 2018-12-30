@@ -14,7 +14,7 @@ pygmentsUseClasses = true # new add
 disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
 
 [params] # theme parameters
-    author = "Will Bidstrup" # Author's name.
+    author = "Will Bidstrup's" # Author's name.
     info = "Exploration journal" # Author's job title or info.
     description = "Will Bidstrup's personal website" # Site description.
     keywords = "blog,developer,personal" # Site keywords.
