@@ -6,10 +6,23 @@
     <description>Recent content in Visualisation on Data Science Explorer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/visualisation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The games I played in 2018 Part Two - Insights</title>
+      <link>/post/the-games-i-played-in-2018-part-two-insights/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-games-i-played-in-2018-part-two-insights/</guid>
+      <description>In a previous post I explored my gaming data from 2018.
+Today I’m going to zero in on only 2018 data with two objectives;
+Find five interesting things
+ Visualise those things  Because data exploration and visualisation is such a black hole I’m going to limit myself to one hour to achieve these objectives.
+library(jsonlite) # To read in the .json format which is default export from BG Stats library(here) # For relative file paths library(tidyverse) # For general wrangling and exploration library(padr) # To fill in or &amp;#39;pad&amp;#39; dates in a date series  Import # Read json from BG Stats export d &amp;lt;- fromJSON(&amp;quot;data/BGStatsExport.</description>
+    </item>
     
     <item>
       <title>The games I played in 2018 Part One - EDA</title>

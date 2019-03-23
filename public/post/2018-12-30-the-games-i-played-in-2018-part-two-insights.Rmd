@@ -1,0 +1,119 @@
+---
+title: The games I played in 2018 Part Two - Insights
+author: Will Bidstrup
+date: '2018-12-30'
+slug: the-games-i-played-in-2018-part-two-insights
+categories:
+  - R
+tags:
+  - R
+  - visualisation
+---
+
+In a previous post I explored my gaming data from 2018.  
+
+Today I'm going to zero in on only 2018 data with two objectives;  
+
+1. Find five interesting things  
+2. Visualise those things  
+
+Because data exploration and visualisation is such a black hole I'm going to limit myself to **one hour** to achieve these objectives.  
+
+
+```{r, message = FALSE}
+library(jsonlite) # To read in the .json format which is default export from BG Stats
+library(here) # For relative file paths
+library(tidyverse)  # For general wrangling and exploration  
+library(padr) # To fill in or 'pad' dates in a date series  
+```
+
+
+# Import
+
+```{r}
+# Read json from BG Stats export
+d <- fromJSON("data/BGStatsExport.json")
+
+```
+
+```{r}
+# Extract into data frames
+games <- data.frame(d[3])
+plays <- data.frame(d[4])
+locations <- data.frame(d[5])
+players <- data.frame(d[6])
+```
+
+# Pre-process
+
+I create plays_plus which is the plays information enhanced with information about the games.  
+
+```{r}
+# Create plays_plus, an enhanced data frame with elements from games.  
+
+## Create game ID lookup  
+game_id_lookup <- games %>%
+  select(games.id, games.name)
+
+## Join to plays
+plays_plus <- plays %>%
+  left_join(game_id_lookup, by = c("plays.gameRefId" = "games.id"))
+```
+
+```{r}
+time_per_game <- plays_plus %>%
+  group_by(games.name) %>%
+  summarise(total_mins = sum(plays.durationMin, na.rm = T),
+            total_hours = round(total_mins /60, digits = 2))
+```
+
+```{r}
+plays_plus <- separate(plays_plus, col = plays.playDate, into = c("date","time"), sep = " ")
+
+plays_plus$date <- as.Date(plays_plus$date, format = "%Y-%m-%d")
+```
+
+```{r}
+# TODO - figure out grepl in ifelse for iPad
+# Categorise games
+plays_plus$game_type <- ifelse(plays_plus$games.name %in% c("Dungeons & Dragons 5E", "Tales From The Loop", "Conan: Adventures In An Age Undreamed Of"), "RPG",
+                               ifelse(plays_plus$games.name %in% c("Stardew Valley (iPad)", "Don’t Starve (iPad)", "Six Ages: Ride Like The Wind (iPad)", "Baldur’s Gate (iPad)"), "iPad","Other"))
+
+
+```
+
+
+I create a summary of the year by padding in all the days I didn't play.  
+
+```{r}
+year_summary <- plays_plus %>%
+  pad %>%
+  group_by(date, games.name) %>%
+  summarise(total_mins = sum(plays.durationMin, na.rm = T),
+            total_hours = round(total_mins /60, digits = 2)) 
+
+
+
+year_summary$cum_hours <- cumsum(year_summary$total_hours)
+```
+
+
+# Insights
+
+## How much time did I spend playing games?  
+
+
+```{r}
+ggplot(data = year_summary %>%
+         filter(date > "2017-12-31"), aes(x = date, y = cum_hours)) +
+  geom_line() +
+  theme_minimal() +
+  labs(title = "Cumulative gaming time in 2018",
+       x = "Date",
+       y = "Cumulative hours")
+```
+
+
+## What games did I play the most?  
+
+

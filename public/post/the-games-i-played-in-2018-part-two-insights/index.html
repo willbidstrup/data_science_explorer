@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Will Bidstrup&#39;s">
+    <meta name="description" content="/">
+    <meta name="keywords" content="blog,developer,personal">
+    
+    <meta property="og:site_name" content="Data Science Explorer">
+    <meta property="og:title" content="
+  The games I played in 2018 Part Two - Insights - Data Science Explorer
+">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/post/the-games-i-played-in-2018-part-two-insights/">
+    <meta property="og:image" content="/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="/post/the-games-i-played-in-2018-part-two-insights/">
+    <meta name="twitter:image" content="/">
+
+    <base href="/">
+    <title>
+  The games I played in 2018 Part Two - Insights - Data Science Explorer
+</title>
+
+    <link rel="canonical" href="/post/the-games-i-played-in-2018-part-two-insights/">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    
+
+    <meta name="generator" content="Hugo 0.41" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">Data Science Explorer</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="/post/">Blog</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>The games I played in 2018 Part Two - Insights</h1>
+    </header>
+
+    <p>In a previous post I explored my gaming data from 2018.</p>
+<p>Today I’m going to zero in on only 2018 data with two objectives;</p>
+<ol style="list-style-type: decimal">
+<li>Find five interesting things<br />
+</li>
+<li>Visualise those things</li>
+</ol>
+<p>Because data exploration and visualisation is such a black hole I’m going to limit myself to <strong>one hour</strong> to achieve these objectives.</p>
+<pre class="r"><code>library(jsonlite) # To read in the .json format which is default export from BG Stats
+library(here) # For relative file paths
+library(tidyverse)  # For general wrangling and exploration  
+library(padr) # To fill in or &#39;pad&#39; dates in a date series  </code></pre>
+<div id="import" class="section level1">
+<h1>Import</h1>
+<pre class="r"><code># Read json from BG Stats export
+d &lt;- fromJSON(&quot;data/BGStatsExport.json&quot;)</code></pre>
+<pre class="r"><code># Extract into data frames
+games &lt;- data.frame(d[3])
+plays &lt;- data.frame(d[4])
+locations &lt;- data.frame(d[5])
+players &lt;- data.frame(d[6])</code></pre>
+</div>
+<div id="pre-process" class="section level1">
+<h1>Pre-process</h1>
+<p>I create plays_plus which is the plays information enhanced with information about the games.</p>
+<pre class="r"><code># Create plays_plus, an enhanced data frame with elements from games.  
+
+## Create game ID lookup  
+game_id_lookup &lt;- games %&gt;%
+  select(games.id, games.name)
+
+## Join to plays
+plays_plus &lt;- plays %&gt;%
+  left_join(game_id_lookup, by = c(&quot;plays.gameRefId&quot; = &quot;games.id&quot;))</code></pre>
+<pre class="r"><code>time_per_game &lt;- plays_plus %&gt;%
+  group_by(games.name) %&gt;%
+  summarise(total_mins = sum(plays.durationMin, na.rm = T),
+            total_hours = round(total_mins /60, digits = 2))</code></pre>
+<pre class="r"><code>plays_plus &lt;- separate(plays_plus, col = plays.playDate, into = c(&quot;date&quot;,&quot;time&quot;), sep = &quot; &quot;)
+
+plays_plus$date &lt;- as.Date(plays_plus$date, format = &quot;%Y-%m-%d&quot;)</code></pre>
+<pre class="r"><code># TODO - figure out grepl in ifelse for iPad
+# Categorise games
+plays_plus$game_type &lt;- ifelse(plays_plus$games.name %in% c(&quot;Dungeons &amp; Dragons 5E&quot;, &quot;Tales From The Loop&quot;, &quot;Conan: Adventures In An Age Undreamed Of&quot;), &quot;RPG&quot;,
+                               ifelse(plays_plus$games.name %in% c(&quot;Stardew Valley (iPad)&quot;, &quot;Don’t Starve (iPad)&quot;, &quot;Six Ages: Ride Like The Wind (iPad)&quot;, &quot;Baldur’s Gate (iPad)&quot;), &quot;iPad&quot;,&quot;Other&quot;))</code></pre>
+<p>I create a summary of the year by padding in all the days I didn’t play.</p>
+<pre class="r"><code>year_summary &lt;- plays_plus %&gt;%
+  pad %&gt;%
+  group_by(date, games.name) %&gt;%
+  summarise(total_mins = sum(plays.durationMin, na.rm = T),
+            total_hours = round(total_mins /60, digits = 2)) </code></pre>
+<pre><code>## pad applied on the interval: day</code></pre>
+<pre class="r"><code>year_summary$cum_hours &lt;- cumsum(year_summary$total_hours)</code></pre>
+</div>
+<div id="insights" class="section level1">
+<h1>Insights</h1>
+<div id="how-much-time-did-i-spend-playing-games" class="section level2">
+<h2>How much time did I spend playing games?</h2>
+<pre class="r"><code>ggplot(data = year_summary %&gt;%
+         filter(date &gt; &quot;2017-12-31&quot;), aes(x = date, y = cum_hours)) +
+  geom_line() +
+  theme_minimal() +
+  labs(title = &quot;Cumulative gaming time in 2018&quot;,
+       x = &quot;Date&quot;,
+       y = &quot;Cumulative hours&quot;)</code></pre>
+<p><img src="/post/2018-12-30-the-games-i-played-in-2018-part-two-insights_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+</div>
+<div id="what-games-did-i-play-the-most" class="section level2">
+<h2>What games did I play the most?</h2>
+</div>
+</div>
+
+  </article>
+</section>
+
+
+      </div>
+      
+    </main>
+
+    
+
+  <script src="/js/app.js"></script>
+  
+  </body>
+</html>

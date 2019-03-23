@@ -505,13 +505,13 @@
     {
       "highestWins" : true,
       "id" : 35,
-      "modificationDate" : "2018-06-29 08:29:07",
+      "modificationDate" : "2018-12-08 16:49:46",
       "usesTeams" : false,
       "cooperative" : false,
       "uuid" : "77B2753D-7962-4080-8088-9245A2FEA632",
       "bggYear" : 0,
       "bggId" : 0,
-      "name" : "Six Ages: Ride Like The Wind",
+      "name" : "Six Ages: Ride Like The Wind (iPad)",
       "noPoints" : false
     },
     {
@@ -597,9 +597,643 @@
       "bggYear" : 2017,
       "name" : "Codenames Duet",
       "designers" : "Vlaada Chvátil, Scot Eaton"
+    },
+    {
+      "highestWins" : true,
+      "id" : 42,
+      "modificationDate" : "2018-12-05 22:31:30",
+      "usesTeams" : false,
+      "cooperative" : true,
+      "uuid" : "0BE0D20F-C42B-4DDA-87DE-2A0A8AC1BC75",
+      "bggYear" : 0,
+      "bggId" : 0,
+      "name" : "The Wicked Wizard Of Oz",
+      "noPoints" : false
+    },
+    {
+      "id" : 43,
+      "uuid" : "0F5DE845-16B5-43D0-87DE-C116B7909182",
+      "noPoints" : false,
+      "highestWins" : true,
+      "cooperative" : false,
+      "urlThumb" : "https:\/\/cf.geekdo-images.com\/itemrep\/img\/DM-WTtBvZDisoCRDcTKQujo0nwg=\/fit-in\/246x300\/pic3737938.jpg",
+      "modificationDate" : "2018-12-07 21:55:02",
+      "usesTeams" : false,
+      "bggId" : 235365,
+      "bggName" : "Doctor Who Fluxx",
+      "bggYear" : 2017,
+      "name" : "Doctor Who Fluxx",
+      "designers" : "Andrew Looney"
+    },
+    {
+      "highestWins" : true,
+      "id" : 44,
+      "modificationDate" : "2018-12-08 16:39:52",
+      "usesTeams" : false,
+      "cooperative" : false,
+      "uuid" : "363C6BD2-4CC3-427A-B7C3-6DFCEFEE2779",
+      "bggYear" : 0,
+      "bggId" : 0,
+      "name" : "Stardew Valley (iPad)",
+      "noPoints" : true
     }
   ],
   "plays" : [
+    {
+      "uuid" : "FA4FB3FD-D49C-4184-B45C-0782D7C137B4",
+      "ignored" : false,
+      "rating" : 0,
+      "scoringSetting" : 0,
+      "playerScores" : [
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        }
+      ],
+      "modificationDate" : "2018-12-19 22:32:00",
+      "playDate" : "2018-12-19 22:09:07",
+      "manualWinner" : false,
+      "locationRefId" : 2,
+      "rounds" : 0,
+      "usesTeams" : false,
+      "bggId" : 0,
+      "entryDate" : "2018-12-19 22:09:07",
+      "playImages" : "[]",
+      "durationMin" : 22,
+      "nemestatsId" : 0,
+      "gameRefId" : 44
+    },
+    {
+      "uuid" : "B4E315BD-5641-4A82-B9F8-40E62A8A2989",
+      "ignored" : false,
+      "rating" : 0,
+      "scoringSetting" : 0,
+      "playerScores" : [
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 24,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 8,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 12,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 11,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        }
+      ],
+      "modificationDate" : "2018-12-16 21:01:04",
+      "playDate" : "2018-12-16 21:00:22",
+      "manualWinner" : false,
+      "locationRefId" : 7,
+      "rounds" : 0,
+      "usesTeams" : false,
+      "bggId" : 0,
+      "entryDate" : "2018-12-16 21:00:22",
+      "playImages" : "[]",
+      "durationMin" : 240,
+      "board" : "Tales From The Loop",
+      "nemestatsId" : 0,
+      "gameRefId" : 38
+    },
+    {
+      "uuid" : "0B2C4BE3-8BD2-4E11-A435-B468C370EC6D",
+      "ignored" : false,
+      "rating" : 0,
+      "scoringSetting" : 0,
+      "playerScores" : [
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 16,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 32,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 31,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 33,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 20,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        }
+      ],
+      "modificationDate" : "2018-12-16 21:00:07",
+      "playDate" : "2018-12-15 20:58:30",
+      "manualWinner" : false,
+      "locationRefId" : 7,
+      "rounds" : 0,
+      "usesTeams" : false,
+      "bggId" : 0,
+      "entryDate" : "2018-12-16 20:58:30",
+      "playImages" : "[]",
+      "durationMin" : 390,
+      "board" : "Hoard Of The Dragon Queen",
+      "nemestatsId" : 0,
+      "gameRefId" : 10
+    },
+    {
+      "uuid" : "17EEB5E4-0A75-4753-AA67-71B78B6FF1EC",
+      "ignored" : false,
+      "rating" : 0,
+      "scoringSetting" : 0,
+      "playerScores" : [
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        }
+      ],
+      "modificationDate" : "2018-12-14 16:22:49",
+      "playDate" : "2018-12-14 16:11:39",
+      "manualWinner" : false,
+      "locationRefId" : 2,
+      "rounds" : 0,
+      "usesTeams" : false,
+      "bggId" : 0,
+      "entryDate" : "2018-12-14 16:11:39",
+      "playImages" : "[]",
+      "durationMin" : 11,
+      "nemestatsId" : 0,
+      "gameRefId" : 44
+    },
+    {
+      "uuid" : "98A8EDC9-E540-4BE3-96A8-63404178A459",
+      "ignored" : false,
+      "rating" : 0,
+      "scoringSetting" : 0,
+      "playerScores" : [
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        }
+      ],
+      "modificationDate" : "2018-12-12 19:45:27",
+      "playDate" : "2018-12-12 19:21:53",
+      "manualWinner" : false,
+      "locationRefId" : 2,
+      "rounds" : 0,
+      "usesTeams" : false,
+      "bggId" : 0,
+      "entryDate" : "2018-12-12 19:21:53",
+      "playImages" : "[]",
+      "durationMin" : 23,
+      "nemestatsId" : 0,
+      "gameRefId" : 44
+    },
+    {
+      "uuid" : "2E4BA93F-0524-4D8A-AC24-BDEF23846D69",
+      "ignored" : false,
+      "rating" : 0,
+      "scoringSetting" : 0,
+      "playerScores" : [
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        }
+      ],
+      "modificationDate" : "2018-12-11 20:18:13",
+      "playDate" : "2018-12-11 20:00:57",
+      "manualWinner" : false,
+      "locationRefId" : 2,
+      "rounds" : 0,
+      "usesTeams" : false,
+      "bggId" : 0,
+      "entryDate" : "2018-12-11 20:00:57",
+      "playImages" : "[]",
+      "durationMin" : 17,
+      "nemestatsId" : 0,
+      "gameRefId" : 44
+    },
+    {
+      "uuid" : "E1785141-295F-45E3-BDB2-F461D806A402",
+      "ignored" : false,
+      "rating" : 0,
+      "scoringSetting" : 0,
+      "playerScores" : [
+        {
+          "winner" : true,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 5,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        }
+      ],
+      "modificationDate" : "2018-12-07 22:57:22",
+      "bggLastSync" : "2018-12-07 22:57:07",
+      "playDate" : "2018-12-07 22:25:55",
+      "manualWinner" : true,
+      "locationRefId" : 2,
+      "rounds" : 0,
+      "usesTeams" : false,
+      "bggId" : 0,
+      "entryDate" : "2018-12-07 22:25:55",
+      "playImages" : "[]",
+      "durationMin" : 31,
+      "nemestatsId" : 0,
+      "gameRefId" : 43
+    },
+    {
+      "uuid" : "3B19944E-8C64-4A58-B278-A3716A4D627A",
+      "ignored" : false,
+      "rating" : 0,
+      "scoringSetting" : 0,
+      "playerScores" : [
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 5,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : true,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "newPlayer" : true
+        }
+      ],
+      "modificationDate" : "2018-12-07 22:57:37",
+      "bggLastSync" : "2018-12-07 22:25:54",
+      "playDate" : "2018-12-07 21:55:08",
+      "manualWinner" : true,
+      "locationRefId" : 2,
+      "rounds" : 0,
+      "usesTeams" : false,
+      "bggId" : 0,
+      "entryDate" : "2018-12-07 21:55:08",
+      "playImages" : "[]",
+      "durationMin" : 30,
+      "nemestatsId" : 0,
+      "gameRefId" : 43
+    },
+    {
+      "uuid" : "C10C10A5-DDC2-47CB-B747-2AC95AE754E6",
+      "ignored" : false,
+      "rating" : 0,
+      "scoringSetting" : 0,
+      "playerScores" : [
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        }
+      ],
+      "modificationDate" : "2018-12-08 16:44:54",
+      "playDate" : "2018-12-07 16:44:34",
+      "manualWinner" : false,
+      "locationRefId" : 2,
+      "rounds" : 0,
+      "usesTeams" : false,
+      "bggId" : 0,
+      "entryDate" : "2018-12-08 16:44:34",
+      "playImages" : "[]",
+      "durationMin" : 86,
+      "nemestatsId" : 0,
+      "gameRefId" : 44
+    },
+    {
+      "uuid" : "44930DBE-3F4F-425E-B50D-68BD088AB1C7",
+      "ignored" : false,
+      "rating" : 0,
+      "scoringSetting" : 0,
+      "playerScores" : [
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        }
+      ],
+      "modificationDate" : "2018-12-08 16:44:13",
+      "playDate" : "2018-12-06 16:43:59",
+      "manualWinner" : false,
+      "locationRefId" : 2,
+      "rounds" : 0,
+      "usesTeams" : false,
+      "bggId" : 0,
+      "entryDate" : "2018-12-08 16:43:59",
+      "playImages" : "[]",
+      "durationMin" : 35,
+      "nemestatsId" : 0,
+      "gameRefId" : 44
+    },
+    {
+      "uuid" : "5FF628D0-756E-45B3-8327-F43DCE050BE3",
+      "ignored" : false,
+      "rating" : 0,
+      "scoringSetting" : 0,
+      "playerScores" : [
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "newPlayer" : true
+        }
+      ],
+      "modificationDate" : "2018-12-05 22:32:12",
+      "playDate" : "2018-12-05 22:31:33",
+      "manualWinner" : false,
+      "locationRefId" : 2,
+      "rounds" : 0,
+      "usesTeams" : false,
+      "bggId" : 0,
+      "entryDate" : "2018-12-05 22:31:33",
+      "playImages" : "[]",
+      "durationMin" : 45,
+      "nemestatsId" : 0,
+      "gameRefId" : 42
+    },
+    {
+      "uuid" : "FEA24A31-68C9-46EA-A3C1-B6CE1AD1B436",
+      "ignored" : false,
+      "rating" : 0,
+      "scoringSetting" : 0,
+      "playerScores" : [
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        }
+      ],
+      "modificationDate" : "2018-12-08 16:43:36",
+      "playDate" : "2018-12-04 16:43:14",
+      "manualWinner" : false,
+      "locationRefId" : 2,
+      "rounds" : 0,
+      "usesTeams" : false,
+      "bggId" : 0,
+      "entryDate" : "2018-12-08 16:43:14",
+      "playImages" : "[]",
+      "durationMin" : 43,
+      "nemestatsId" : 0,
+      "gameRefId" : 44
+    },
+    {
+      "uuid" : "F2EC3CCC-63B0-41C0-85E6-E18058181DCF",
+      "ignored" : false,
+      "rating" : 0,
+      "scoringSetting" : 0,
+      "playerScores" : [
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        }
+      ],
+      "modificationDate" : "2018-12-08 16:42:54",
+      "playDate" : "2018-12-02 16:42:39",
+      "manualWinner" : false,
+      "locationRefId" : 2,
+      "rounds" : 0,
+      "usesTeams" : false,
+      "bggId" : 0,
+      "entryDate" : "2018-12-08 16:42:39",
+      "playImages" : "[]",
+      "durationMin" : 28,
+      "nemestatsId" : 0,
+      "gameRefId" : 44
+    },
+    {
+      "uuid" : "920E2486-1D60-41AD-84AE-F5C00B367A94",
+      "ignored" : false,
+      "rating" : 0,
+      "scoringSetting" : 0,
+      "playerScores" : [
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 1,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 1,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 1,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 1,
+          "rank" : 0,
+          "newPlayer" : false
+        }
+      ],
+      "modificationDate" : "2018-12-01 22:29:30",
+      "playDate" : "2018-12-01 22:28:26",
+      "manualWinner" : false,
+      "locationRefId" : 13,
+      "rounds" : 0,
+      "usesTeams" : false,
+      "bggId" : 0,
+      "entryDate" : "2018-12-01 22:28:26",
+      "playImages" : "[]",
+      "durationMin" : 240,
+      "board" : "Dragonmeet demo",
+      "nemestatsId" : 0,
+      "gameRefId" : 31
+    },
+    {
+      "uuid" : "97835F51-BFB1-454C-838D-06592C90CD0F",
+      "ignored" : false,
+      "rating" : 0,
+      "scoringSetting" : 0,
+      "playerScores" : [
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        }
+      ],
+      "modificationDate" : "2018-12-08 16:42:28",
+      "playDate" : "2018-11-30 16:41:52",
+      "manualWinner" : false,
+      "locationRefId" : 2,
+      "rounds" : 0,
+      "usesTeams" : false,
+      "bggId" : 0,
+      "entryDate" : "2018-12-08 16:41:52",
+      "playImages" : "[]",
+      "durationMin" : 78,
+      "nemestatsId" : 0,
+      "gameRefId" : 44
+    },
     {
       "uuid" : "17B82776-4DF4-473C-B715-3D36B5DB9059",
       "ignored" : false,
@@ -631,19 +1265,19 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 25,
+          "playerRefId" : 3,
           "rank" : 0,
-          "newPlayer" : true
+          "team" : "0",
+          "newPlayer" : false
         },
         {
           "winner" : false,
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 25,
           "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
+          "newPlayer" : true
         }
       ],
       "modificationDate" : "2018-11-25 20:17:24",
@@ -753,7 +1387,7 @@
           "seatOrder" : 0,
           "score" : "8",
           "startPlayer" : false,
-          "playerRefId" : 5,
+          "playerRefId" : 3,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -763,7 +1397,7 @@
           "seatOrder" : 0,
           "score" : "8",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 5,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -827,6 +1461,65 @@
       "nemestatsId" : 0
     },
     {
+      "uuid" : "1F3CB9B6-3524-4DA6-BE79-76D321295FF6",
+      "ignored" : false,
+      "rating" : 0,
+      "scoringSetting" : 0,
+      "playerScores" : [
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        }
+      ],
+      "modificationDate" : "2018-12-08 16:41:31",
+      "playDate" : "2018-11-23 16:41:13",
+      "manualWinner" : false,
+      "locationRefId" : 2,
+      "rounds" : 0,
+      "usesTeams" : false,
+      "bggId" : 0,
+      "entryDate" : "2018-12-08 16:41:13",
+      "playImages" : "[]",
+      "durationMin" : 40,
+      "nemestatsId" : 0,
+      "gameRefId" : 44
+    },
+    {
+      "uuid" : "D09292AC-3B58-4CB4-8704-A669F02A390B",
+      "ignored" : false,
+      "rating" : 0,
+      "scoringSetting" : 0,
+      "playerScores" : [
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "newPlayer" : true
+        }
+      ],
+      "modificationDate" : "2018-12-08 16:41:07",
+      "playDate" : "2018-11-21 16:40:33",
+      "manualWinner" : false,
+      "locationRefId" : 2,
+      "rounds" : 0,
+      "usesTeams" : false,
+      "bggId" : 0,
+      "entryDate" : "2018-12-08 16:40:33",
+      "playImages" : "[]",
+      "durationMin" : 27,
+      "nemestatsId" : 0,
+      "gameRefId" : 44
+    },
+    {
       "uuid" : "87FF8FD0-01D1-4C67-84D7-79135FF095AB",
       "ignored" : false,
       "rating" : 0,
@@ -844,18 +1537,9 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "9",
+          "score" : "25",
           "startPlayer" : false,
-          "playerRefId" : 31,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "10",
-          "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 16,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -872,12 +1556,21 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "25",
+          "score" : "10",
           "startPlayer" : false,
-          "playerRefId" : 16,
+          "playerRefId" : 3,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "9",
+          "startPlayer" : false,
+          "playerRefId" : 31,
+          "rank" : 0,
+          "newPlayer" : true
         }
       ],
       "modificationDate" : "2018-11-03 16:07:16",
@@ -901,15 +1594,6 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : true,
-          "seatOrder" : 0,
-          "score" : "1",
-          "startPlayer" : false,
-          "playerRefId" : 32,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
           "winner" : false,
           "seatOrder" : 0,
           "score" : null,
@@ -918,15 +1602,6 @@
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : null,
-          "startPlayer" : false,
-          "playerRefId" : 31,
-          "rank" : 0,
-          "newPlayer" : true
         },
         {
           "winner" : false,
@@ -942,10 +1617,28 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
+          "playerRefId" : 31,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : null,
+          "startPlayer" : false,
           "playerRefId" : 16,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
+        },
+        {
+          "winner" : true,
+          "seatOrder" : 0,
+          "score" : "1",
+          "startPlayer" : false,
+          "playerRefId" : 32,
+          "rank" : 0,
+          "newPlayer" : true
         }
       ],
       "modificationDate" : "2018-11-03 15:05:10",
@@ -972,9 +1665,18 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 20,
           "rank" : 0,
           "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : null,
+          "startPlayer" : false,
+          "playerRefId" : 16,
+          "rank" : 0,
           "newPlayer" : false
         },
         {
@@ -991,8 +1693,9 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 16,
+          "playerRefId" : 3,
           "rank" : 0,
+          "team" : "0",
           "newPlayer" : false
         },
         {
@@ -1002,16 +1705,6 @@
           "startPlayer" : false,
           "playerRefId" : 31,
           "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : null,
-          "startPlayer" : false,
-          "playerRefId" : 20,
-          "rank" : 0,
-          "team" : "0",
           "newPlayer" : false
         },
         {
@@ -1044,36 +1737,9 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 31,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : null,
-          "startPlayer" : false,
-          "playerRefId" : 20,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : null,
-          "startPlayer" : false,
           "playerRefId" : 16,
           "rank" : 0,
           "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : null,
-          "startPlayer" : false,
-          "playerRefId" : 23,
-          "rank" : 0,
-          "newPlayer" : true
         },
         {
           "winner" : false,
@@ -1089,9 +1755,36 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
+          "playerRefId" : 31,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : null,
+          "startPlayer" : false,
           "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : null,
+          "startPlayer" : false,
+          "playerRefId" : 20,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : null,
+          "startPlayer" : false,
+          "playerRefId" : 23,
+          "rank" : 0,
+          "newPlayer" : true
         }
       ],
       "usesTeams" : false,
@@ -1160,20 +1853,20 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : true,
-          "seatOrder" : 0,
-          "score" : "25",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
           "winner" : false,
           "seatOrder" : 0,
           "score" : "22",
           "startPlayer" : false,
           "playerRefId" : 20,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : true,
+          "seatOrder" : 0,
+          "score" : "25",
+          "startPlayer" : false,
+          "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : true
         }
@@ -1202,7 +1895,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 24,
+          "playerRefId" : 8,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -1212,7 +1905,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 12,
+          "playerRefId" : 24,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -1242,7 +1935,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 8,
+          "playerRefId" : 12,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -1269,6 +1962,24 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
+          "playerRefId" : 24,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 12,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
           "playerRefId" : 11,
           "rank" : 0,
           "newPlayer" : true
@@ -1288,25 +1999,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 12,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
           "playerRefId" : 8,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 24,
           "rank" : 0,
           "newPlayer" : true
         }
@@ -1472,33 +2165,6 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : null,
-          "startPlayer" : false,
-          "playerRefId" : 4,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : null,
-          "startPlayer" : false,
-          "playerRefId" : 9,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : null,
-          "startPlayer" : false,
           "playerRefId" : 25,
           "rank" : 0,
           "newPlayer" : false
@@ -1527,6 +2193,33 @@
           "score" : null,
           "startPlayer" : false,
           "playerRefId" : 12,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : null,
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : null,
+          "startPlayer" : false,
+          "playerRefId" : 4,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : null,
+          "startPlayer" : false,
+          "playerRefId" : 9,
           "rank" : 0,
           "newPlayer" : false
         }
@@ -1556,7 +2249,16 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 12,
+          "playerRefId" : 11,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : null,
+          "startPlayer" : false,
+          "playerRefId" : 25,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -1583,7 +2285,7 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 11,
+          "playerRefId" : 12,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -1593,15 +2295,6 @@
           "score" : null,
           "startPlayer" : false,
           "playerRefId" : 3,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : null,
-          "startPlayer" : false,
-          "playerRefId" : 25,
           "rank" : 0,
           "newPlayer" : false
         }
@@ -1632,9 +2325,8 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 8,
           "rank" : 0,
-          "team" : "0",
           "newPlayer" : false
         },
         {
@@ -1642,8 +2334,9 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 4,
+          "playerRefId" : 3,
           "rank" : 0,
+          "team" : "0",
           "newPlayer" : false
         },
         {
@@ -1660,7 +2353,7 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 8,
+          "playerRefId" : 4,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -1748,19 +2441,19 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 20,
           "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
+          "newPlayer" : true
         },
         {
           "winner" : false,
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 20,
+          "playerRefId" : 3,
           "rank" : 0,
-          "newPlayer" : true
+          "team" : "0",
+          "newPlayer" : false
         }
       ],
       "modificationDate" : "2018-08-26 21:30:18",
@@ -1784,33 +2477,13 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : true,
-          "seatOrder" : 0,
-          "score" : "2",
-          "startPlayer" : false,
-          "playerRefId" : 16,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : true
-        },
-        {
           "winner" : false,
           "seatOrder" : 0,
           "score" : "1",
           "startPlayer" : false,
-          "playerRefId" : 20,
+          "playerRefId" : 15,
           "rank" : 0,
           "team" : "1",
-          "newPlayer" : false
-        },
-        {
-          "winner" : true,
-          "seatOrder" : 0,
-          "score" : "2",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "team" : "0",
           "newPlayer" : false
         },
         {
@@ -1828,9 +2501,19 @@
           "seatOrder" : 0,
           "score" : "1",
           "startPlayer" : false,
-          "playerRefId" : 15,
+          "playerRefId" : 5,
           "rank" : 0,
           "team" : "1",
+          "newPlayer" : true
+        },
+        {
+          "winner" : true,
+          "seatOrder" : 0,
+          "score" : "2",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
           "newPlayer" : false
         },
         {
@@ -1838,9 +2521,19 @@
           "seatOrder" : 0,
           "score" : "1",
           "startPlayer" : false,
-          "playerRefId" : 5,
+          "playerRefId" : 20,
           "rank" : 0,
           "team" : "1",
+          "newPlayer" : false
+        },
+        {
+          "winner" : true,
+          "seatOrder" : 0,
+          "score" : "2",
+          "startPlayer" : false,
+          "playerRefId" : 16,
+          "rank" : 0,
+          "team" : "0",
           "newPlayer" : true
         }
       ],
@@ -1866,15 +2559,6 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "320",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
           "score" : "232",
           "startPlayer" : false,
           "playerRefId" : 31,
@@ -1884,9 +2568,18 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "425",
+          "score" : "307",
           "startPlayer" : false,
-          "playerRefId" : 16,
+          "playerRefId" : 15,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "320",
+          "startPlayer" : false,
+          "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : true
         },
@@ -1902,9 +2595,9 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "307",
+          "score" : "425",
           "startPlayer" : false,
-          "playerRefId" : 15,
+          "playerRefId" : 16,
           "rank" : 0,
           "newPlayer" : true
         }
@@ -1931,19 +2624,9 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "7",
-          "startPlayer" : false,
-          "playerRefId" : 15,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
           "score" : "0",
           "startPlayer" : false,
-          "playerRefId" : 16,
+          "playerRefId" : 31,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -1963,7 +2646,7 @@
           "seatOrder" : 0,
           "score" : "0",
           "startPlayer" : false,
-          "playerRefId" : 31,
+          "playerRefId" : 16,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -1974,6 +2657,16 @@
           "score" : "0",
           "startPlayer" : false,
           "playerRefId" : 20,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "7",
+          "startPlayer" : false,
+          "playerRefId" : 15,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -2001,6 +2694,15 @@
         {
           "winner" : false,
           "seatOrder" : 0,
+          "score" : "-10",
+          "startPlayer" : false,
+          "playerRefId" : 16,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
           "score" : "16",
           "startPlayer" : false,
           "playerRefId" : 20,
@@ -2017,11 +2719,11 @@
           "newPlayer" : false
         },
         {
-          "winner" : false,
+          "winner" : true,
           "seatOrder" : 0,
-          "score" : "-10",
+          "score" : "18",
           "startPlayer" : false,
-          "playerRefId" : 16,
+          "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -2033,15 +2735,6 @@
           "playerRefId" : 31,
           "rank" : 0,
           "newPlayer" : true
-        },
-        {
-          "winner" : true,
-          "seatOrder" : 0,
-          "score" : "18",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "newPlayer" : false
         }
       ],
       "modificationDate" : "2018-08-26 21:21:53",
@@ -2067,18 +2760,9 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "41",
+          "score" : "40",
           "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "31",
-          "startPlayer" : false,
-          "playerRefId" : 15,
+          "playerRefId" : 20,
           "rank" : 0,
           "newPlayer" : true
         },
@@ -2094,11 +2778,20 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "40",
+          "score" : "31",
           "startPlayer" : false,
-          "playerRefId" : 20,
+          "playerRefId" : 15,
           "rank" : 0,
           "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "41",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "newPlayer" : false
         },
         {
           "winner" : false,
@@ -2142,21 +2835,21 @@
         {
           "winner" : false,
           "seatOrder" : 0,
+          "score" : "0",
+          "startPlayer" : false,
+          "playerRefId" : 31,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
           "score" : "1",
           "startPlayer" : false,
           "playerRefId" : 3,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "0",
-          "startPlayer" : false,
-          "playerRefId" : 31,
-          "rank" : 0,
-          "newPlayer" : true
         }
       ],
       "modificationDate" : "2018-08-26 09:48:32",
@@ -2184,16 +2877,6 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 12,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
           "playerRefId" : 3,
           "rank" : 0,
           "team" : "0",
@@ -2205,16 +2888,6 @@
           "score" : "",
           "startPlayer" : false,
           "playerRefId" : 11,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 8,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -2236,6 +2909,26 @@
           "startPlayer" : false,
           "playerRefId" : 4,
           "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 12,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 8,
+          "rank" : 0,
+          "team" : "0",
           "newPlayer" : false
         }
       ],
@@ -2264,6 +2957,15 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
+          "playerRefId" : 9,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
           "playerRefId" : 8,
           "rank" : 0,
           "team" : "0",
@@ -2307,15 +3009,6 @@
           "playerRefId" : 11,
           "rank" : 0,
           "team" : "0",
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 9,
-          "rank" : 0,
           "newPlayer" : false
         }
       ],
@@ -2344,37 +3037,17 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 24,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 11,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 25,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
           "playerRefId" : 12,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 24,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -2395,6 +3068,26 @@
           "score" : "",
           "startPlayer" : false,
           "playerRefId" : 8,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 11,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 25,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -2425,6 +3118,15 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
+          "playerRefId" : 30,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
           "playerRefId" : 27,
           "rank" : 0,
           "newPlayer" : true
@@ -2434,7 +3136,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 28,
+          "playerRefId" : 29,
           "rank" : 0,
           "newPlayer" : true
         },
@@ -2452,16 +3154,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 30,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 29,
+          "playerRefId" : 28,
           "rank" : 0,
           "newPlayer" : true
         }
@@ -2521,26 +3214,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 8,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 12,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 9,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -2560,6 +3234,16 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
           "playerRefId" : 24,
           "rank" : 0,
           "newPlayer" : false
@@ -2569,7 +3253,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 9,
+          "playerRefId" : 8,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -2582,6 +3266,15 @@
           "playerRefId" : 25,
           "rank" : 0,
           "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 12,
+          "rank" : 0,
           "newPlayer" : false
         }
       ],
@@ -2766,25 +3459,16 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 9,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 1,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
           "playerRefId" : 25,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 8,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -2812,7 +3496,16 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 8,
+          "playerRefId" : 1,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 9,
           "rank" : 0,
           "newPlayer" : false
         }
@@ -2873,35 +3566,16 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 25,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 12,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
           "playerRefId" : 24,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 25,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -2921,6 +3595,25 @@
           "startPlayer" : false,
           "playerRefId" : 8,
           "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 12,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
           "newPlayer" : false
         }
       ],
@@ -3011,7 +3704,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 11,
+          "playerRefId" : 24,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -3021,33 +3714,6 @@
           "score" : "",
           "startPlayer" : false,
           "playerRefId" : 1,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 9,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 1,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 8,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -3066,7 +3732,34 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 24,
+          "playerRefId" : 9,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 8,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 1,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 11,
           "rank" : 0,
           "newPlayer" : false
         }
@@ -3096,6 +3789,15 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
+          "playerRefId" : 15,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : null,
+          "startPlayer" : false,
           "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : true
@@ -3105,16 +3807,7 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 20,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : null,
-          "startPlayer" : false,
-          "playerRefId" : 15,
+          "playerRefId" : 26,
           "rank" : 0,
           "newPlayer" : true
         },
@@ -3123,7 +3816,7 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 26,
+          "playerRefId" : 20,
           "rank" : 0,
           "newPlayer" : true
         }
@@ -3213,19 +3906,19 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 20,
+          "playerRefId" : 26,
           "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
+          "newPlayer" : true
         },
         {
           "winner" : false,
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 26,
+          "playerRefId" : 20,
           "rank" : 0,
-          "newPlayer" : true
+          "team" : "0",
+          "newPlayer" : false
         },
         {
           "winner" : false,
@@ -3268,6 +3961,16 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
           "winner" : true,
           "seatOrder" : 0,
           "score" : "",
@@ -3281,7 +3984,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 15,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -3292,16 +3995,6 @@
           "score" : "",
           "startPlayer" : false,
           "playerRefId" : 20,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 15,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -3338,21 +4031,21 @@
           "newPlayer" : false
         },
         {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 20,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
           "winner" : true,
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
           "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 20,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -3392,7 +4085,7 @@
           "seatOrder" : 0,
           "score" : "1",
           "startPlayer" : false,
-          "playerRefId" : 16,
+          "playerRefId" : 23,
           "rank" : 0,
           "newPlayer" : true
         },
@@ -3410,7 +4103,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 20,
+          "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : true
         },
@@ -3419,7 +4112,7 @@
           "seatOrder" : 0,
           "score" : "1",
           "startPlayer" : false,
-          "playerRefId" : 23,
+          "playerRefId" : 16,
           "rank" : 0,
           "newPlayer" : true
         },
@@ -3428,21 +4121,22 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 20,
           "rank" : 0,
           "newPlayer" : true
         }
       ],
-      "modificationDate" : "2018-06-16 18:13:43",
+      "modificationDate" : "2018-12-08 16:38:00",
       "bggLastSync" : "2018-06-16 18:10:08",
       "playDate" : "2018-06-16 18:08:52",
       "manualWinner" : false,
+      "locationRefId" : 7,
       "rounds" : 0,
       "usesTeams" : false,
       "bggId" : 0,
       "entryDate" : "2018-06-16 18:08:52",
       "playImages" : "[]",
-      "durationMin" : 0,
+      "durationMin" : 14,
       "nemestatsId" : 0,
       "gameRefId" : 33
     },
@@ -3457,7 +4151,16 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 15,
+          "playerRefId" : 23,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -3475,18 +4178,9 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 15,
           "rank" : 0,
           "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 23,
-          "rank" : 0,
-          "newPlayer" : true
         },
         {
           "winner" : false,
@@ -3518,6 +4212,15 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 23,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
           "winner" : true,
           "seatOrder" : 0,
           "score" : "",
@@ -3533,15 +4236,6 @@
           "score" : "",
           "startPlayer" : false,
           "playerRefId" : 16,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 23,
           "rank" : 0,
           "newPlayer" : true
         },
@@ -3615,21 +4309,21 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : true
-        },
-        {
           "winner" : true,
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
           "playerRefId" : 20,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : true
@@ -3718,7 +4412,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 9,
+          "playerRefId" : 25,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -3738,7 +4432,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 25,
+          "playerRefId" : 9,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -3758,7 +4452,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 8,
+          "playerRefId" : 3,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -3778,7 +4472,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 8,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -3809,25 +4503,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 25,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 8,
+          "playerRefId" : 12,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -3845,7 +4521,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 12,
+          "playerRefId" : 9,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -3854,7 +4530,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 9,
+          "playerRefId" : 8,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -3866,6 +4542,24 @@
           "playerRefId" : 11,
           "rank" : 0,
           "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 25,
+          "rank" : 0,
+          "newPlayer" : true
         }
       ],
       "modificationDate" : "2018-06-03 19:45:13",
@@ -3890,16 +4584,6 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "26",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : true
-        },
-        {
           "winner" : true,
           "seatOrder" : 0,
           "score" : "33",
@@ -3907,6 +4591,15 @@
           "playerRefId" : 5,
           "rank" : 0,
           "team" : "0",
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "26",
+          "startPlayer" : false,
+          "playerRefId" : 16,
+          "rank" : 0,
           "newPlayer" : true
         },
         {
@@ -3923,8 +4616,9 @@
           "seatOrder" : 0,
           "score" : "26",
           "startPlayer" : false,
-          "playerRefId" : 16,
+          "playerRefId" : 3,
           "rank" : 0,
+          "team" : "0",
           "newPlayer" : true
         }
       ],
@@ -3993,7 +4687,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 1,
+          "playerRefId" : 3,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -4003,7 +4697,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 1,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -4124,27 +4818,27 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 1,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 1,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
           "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 1,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 1,
+          "rank" : 0,
+          "newPlayer" : false
         }
       ],
       "modificationDate" : "2018-05-28 10:28:36",
@@ -4173,27 +4867,9 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 9,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 5,
+          "playerRefId" : 3,
           "rank" : 0,
           "team" : "0",
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 8,
-          "rank" : 0,
           "newPlayer" : false
         },
         {
@@ -4210,10 +4886,28 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 9,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 8,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 5,
           "rank" : 0,
           "team" : "0",
-          "newPlayer" : false
+          "newPlayer" : true
         }
       ],
       "modificationDate" : "2018-05-20 21:48:30",
@@ -4237,22 +4931,22 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 2,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
           "winner" : true,
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
           "playerRefId" : 5,
           "rank" : 1,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 2,
           "team" : "0",
           "newPlayer" : false
         }
@@ -4341,6 +5035,16 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
+          "playerRefId" : 11,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
           "playerRefId" : 8,
           "rank" : 0,
           "team" : "0",
@@ -4354,16 +5058,6 @@
           "playerRefId" : 24,
           "rank" : 0,
           "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 11,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
         }
       ],
       "modificationDate" : "2018-04-29 20:27:27",
@@ -4391,7 +5085,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 12,
+          "playerRefId" : 4,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -4418,6 +5112,24 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
+          "playerRefId" : 4,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 12,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
           "playerRefId" : 11,
           "rank" : 0,
           "newPlayer" : false
@@ -4427,25 +5139,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 4,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
           "playerRefId" : 21,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 4,
           "rank" : 0,
           "newPlayer" : false
         }
@@ -4471,20 +5165,20 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "67",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
           "winner" : true,
           "seatOrder" : 0,
           "score" : "131",
           "startPlayer" : false,
           "playerRefId" : 5,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "67",
+          "startPlayer" : false,
+          "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : false
         }
@@ -4513,34 +5207,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 21,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
           "playerRefId" : 8,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 9,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 11,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -4558,7 +5225,34 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
+          "playerRefId" : 9,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 21,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
           "playerRefId" : 3,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 11,
           "rank" : 0,
           "newPlayer" : false
         }
@@ -4588,17 +5282,7 @@
           "seatOrder" : 0,
           "score" : "1",
           "startPlayer" : false,
-          "playerRefId" : 16,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : null,
-          "startPlayer" : false,
-          "playerRefId" : 15,
+          "playerRefId" : 20,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -4614,11 +5298,11 @@
           "newPlayer" : false
         },
         {
-          "winner" : true,
+          "winner" : false,
           "seatOrder" : 0,
-          "score" : "1",
+          "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 20,
+          "playerRefId" : 3,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -4628,7 +5312,17 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 15,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : true,
+          "seatOrder" : 0,
+          "score" : "1",
+          "startPlayer" : false,
+          "playerRefId" : 16,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -4654,16 +5348,6 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : null,
-          "startPlayer" : false,
-          "playerRefId" : 15,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : true
-        },
-        {
           "winner" : true,
           "score" : "1",
           "startPlayer" : false,
@@ -4681,6 +5365,16 @@
           "playerRefId" : 16,
           "role" : "Fascist",
           "seatOrder" : 0,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : null,
+          "startPlayer" : false,
+          "playerRefId" : 15,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : true
@@ -4729,6 +5423,16 @@
         {
           "winner" : false,
           "seatOrder" : 0,
+          "score" : "10",
+          "startPlayer" : false,
+          "playerRefId" : 16,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
           "score" : "24",
           "startPlayer" : false,
           "playerRefId" : 15,
@@ -4737,21 +5441,11 @@
           "newPlayer" : true
         },
         {
-          "winner" : false,
+          "winner" : true,
           "seatOrder" : 0,
-          "score" : "24",
+          "score" : "25",
           "startPlayer" : false,
-          "playerRefId" : 20,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "10",
-          "startPlayer" : false,
-          "playerRefId" : 16,
+          "playerRefId" : 23,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : true
@@ -4767,17 +5461,18 @@
           "newPlayer" : true
         },
         {
-          "winner" : true,
+          "winner" : false,
           "seatOrder" : 0,
-          "score" : "25",
+          "score" : "24",
           "startPlayer" : false,
-          "playerRefId" : 23,
+          "playerRefId" : 20,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : true
         }
       ],
-      "modificationDate" : "2018-03-17 21:28:56",
+      "modificationDate" : "2018-12-08 16:36:52",
+      "bggLastSync" : "2018-03-17 21:28:56",
       "playDate" : "2018-03-17 21:27:31",
       "manualWinner" : false,
       "locationRefId" : 8,
@@ -4786,7 +5481,7 @@
       "bggId" : 0,
       "entryDate" : "2018-03-17 21:27:31",
       "playImages" : "[]",
-      "durationMin" : 0,
+      "durationMin" : 30,
       "nemestatsId" : 0,
       "gameRefId" : 26
     },
@@ -4797,29 +5492,20 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
+          "winner" : true,
+          "seatOrder" : 0,
+          "score" : "135",
+          "startPlayer" : false,
+          "playerRefId" : 20,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
           "winner" : false,
           "seatOrder" : 0,
           "score" : "116",
           "startPlayer" : false,
           "playerRefId" : 16,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "117",
-          "startPlayer" : false,
-          "playerRefId" : 5,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "97",
-          "startPlayer" : false,
-          "playerRefId" : 23,
           "rank" : 0,
           "newPlayer" : true
         },
@@ -4842,11 +5528,20 @@
           "newPlayer" : false
         },
         {
-          "winner" : true,
+          "winner" : false,
           "seatOrder" : 0,
-          "score" : "135",
+          "score" : "117",
           "startPlayer" : false,
-          "playerRefId" : 20,
+          "playerRefId" : 5,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "97",
+          "startPlayer" : false,
+          "playerRefId" : 23,
           "rank" : 0,
           "newPlayer" : true
         }
@@ -4874,9 +5569,19 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "16",
+          "score" : "26",
           "startPlayer" : false,
-          "playerRefId" : 16,
+          "playerRefId" : 15,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "30",
+          "startPlayer" : false,
+          "playerRefId" : 20,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : true
@@ -4894,19 +5599,9 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "30",
+          "score" : "16",
           "startPlayer" : false,
-          "playerRefId" : 20,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "26",
-          "startPlayer" : false,
-          "playerRefId" : 15,
+          "playerRefId" : 16,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : true
@@ -4932,20 +5627,20 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : null,
+          "startPlayer" : false,
+          "playerRefId" : 20,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
           "winner" : true,
           "seatOrder" : 0,
           "score" : "1",
           "startPlayer" : false,
           "playerRefId" : 16,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : null,
-          "startPlayer" : false,
-          "playerRefId" : 15,
           "rank" : 0,
           "newPlayer" : true
         },
@@ -4964,7 +5659,7 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 20,
+          "playerRefId" : 15,
           "rank" : 0,
           "newPlayer" : true
         }
@@ -5003,8 +5698,18 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 11,
+          "playerRefId" : 12,
           "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
           "newPlayer" : false
         },
         {
@@ -5013,15 +5718,6 @@
           "score" : "",
           "startPlayer" : false,
           "playerRefId" : 8,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 12,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -5039,9 +5735,8 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 11,
           "rank" : 0,
-          "team" : "0",
           "newPlayer" : false
         }
       ],
@@ -5069,7 +5764,7 @@
           "winner" : false,
           "score" : "5",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 5,
           "role" : "Type O Negative",
           "seatOrder" : 0,
           "rank" : 0,
@@ -5080,7 +5775,7 @@
           "winner" : false,
           "score" : "5",
           "startPlayer" : false,
-          "playerRefId" : 5,
+          "playerRefId" : 3,
           "role" : "Type O Negative",
           "seatOrder" : 0,
           "rank" : 0,
@@ -5113,15 +5808,6 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 20,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
           "playerRefId" : 16,
           "rank" : 0,
           "newPlayer" : false
@@ -5132,6 +5818,15 @@
           "score" : "",
           "startPlayer" : false,
           "playerRefId" : 3,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 20,
           "rank" : 0,
           "newPlayer" : false
         }
@@ -5161,6 +5856,16 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
           "playerRefId" : 16,
           "rank" : 0,
           "newPlayer" : false
@@ -5172,16 +5877,6 @@
           "startPlayer" : false,
           "playerRefId" : 20,
           "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "team" : "0",
           "newPlayer" : false
         }
       ],
@@ -5211,7 +5906,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 8,
+          "playerRefId" : 22,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -5220,7 +5915,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 12,
+          "playerRefId" : 8,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -5231,6 +5926,16 @@
           "startPlayer" : false,
           "playerRefId" : 9,
           "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
           "newPlayer" : false
         },
         {
@@ -5256,17 +5961,7 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 22,
+          "playerRefId" : 12,
           "rank" : 0,
           "newPlayer" : false
         }
@@ -5397,7 +6092,7 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 11,
+          "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -5415,7 +6110,16 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 22,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : null,
+          "startPlayer" : false,
+          "playerRefId" : 11,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -5427,15 +6131,6 @@
           "playerRefId" : 10,
           "rank" : 0,
           "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : null,
-          "startPlayer" : false,
-          "playerRefId" : 22,
-          "rank" : 0,
-          "newPlayer" : true
         }
       ],
       "modificationDate" : "2018-02-25 18:46:10",
@@ -5459,21 +6154,21 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : true,
-          "seatOrder" : 0,
-          "score" : "6",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : true
-        },
-        {
           "winner" : false,
           "seatOrder" : 0,
           "score" : "4",
           "startPlayer" : false,
           "playerRefId" : 5,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : true
+        },
+        {
+          "winner" : true,
+          "seatOrder" : 0,
+          "score" : "6",
+          "startPlayer" : false,
+          "playerRefId" : 3,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : true
@@ -5582,7 +6277,7 @@
           "winner" : true,
           "score" : "4",
           "startPlayer" : false,
-          "playerRefId" : 5,
+          "playerRefId" : 3,
           "role" : "Maximum Black",
           "seatOrder" : 0,
           "rank" : 0,
@@ -5593,7 +6288,7 @@
           "winner" : true,
           "score" : "4",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 5,
           "role" : "Maximum Black",
           "seatOrder" : 0,
           "rank" : 0,
@@ -5625,7 +6320,7 @@
           "winner" : false,
           "score" : "0",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 5,
           "role" : "Devil’s Bride",
           "seatOrder" : 0,
           "rank" : 0,
@@ -5636,7 +6331,7 @@
           "winner" : false,
           "score" : "0",
           "startPlayer" : false,
-          "playerRefId" : 5,
+          "playerRefId" : 3,
           "role" : "Devil’s Bride",
           "seatOrder" : 0,
           "rank" : 0,
@@ -5667,6 +6362,16 @@
         {
           "winner" : false,
           "seatOrder" : 0,
+          "score" : "224",
+          "startPlayer" : false,
+          "playerRefId" : 1,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
           "score" : "206",
           "startPlayer" : false,
           "playerRefId" : 1,
@@ -5680,16 +6385,6 @@
           "score" : "240",
           "startPlayer" : false,
           "playerRefId" : 3,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "224",
-          "startPlayer" : false,
-          "playerRefId" : 1,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -5768,11 +6463,11 @@
           "winner" : false,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 21,
-          "role" : "Half Orc Druid\/Barbarian",
+          "playerRefId" : 11,
+          "role" : "Gnome Wizard",
           "seatOrder" : 0,
           "rank" : 0,
-          "newPlayer" : true
+          "newPlayer" : false
         },
         {
           "winner" : false,
@@ -5788,8 +6483,8 @@
           "winner" : false,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 11,
-          "role" : "Gnome Wizard",
+          "playerRefId" : 3,
+          "role" : "Human Tempest Cleric",
           "seatOrder" : 0,
           "rank" : 0,
           "newPlayer" : false
@@ -5798,11 +6493,11 @@
           "winner" : false,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 3,
-          "role" : "Human Tempest Cleric",
+          "playerRefId" : 21,
+          "role" : "Half Orc Druid\/Barbarian",
           "seatOrder" : 0,
           "rank" : 0,
-          "newPlayer" : false
+          "newPlayer" : true
         },
         {
           "winner" : false,
@@ -5838,6 +6533,15 @@
         {
           "winner" : false,
           "seatOrder" : 0,
+          "score" : "10",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
           "score" : "9",
           "startPlayer" : false,
           "playerRefId" : 6,
@@ -5850,15 +6554,6 @@
           "score" : "15",
           "startPlayer" : false,
           "playerRefId" : 2,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "10",
-          "startPlayer" : false,
-          "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : true
         },
@@ -5895,24 +6590,6 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "74",
-          "startPlayer" : false,
-          "playerRefId" : 6,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "68",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
           "score" : "90",
           "startPlayer" : false,
           "playerRefId" : 2,
@@ -5925,6 +6602,24 @@
           "score" : "99",
           "startPlayer" : false,
           "playerRefId" : 5,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "74",
+          "startPlayer" : false,
+          "playerRefId" : 6,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "68",
+          "startPlayer" : false,
+          "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : true
         }
@@ -5950,13 +6645,12 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : true,
+          "winner" : false,
           "seatOrder" : 0,
-          "score" : "281",
+          "score" : "153",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 1,
           "rank" : 0,
-          "team" : "0",
           "newPlayer" : false
         },
         {
@@ -5969,12 +6663,13 @@
           "newPlayer" : false
         },
         {
-          "winner" : false,
+          "winner" : true,
           "seatOrder" : 0,
-          "score" : "153",
+          "score" : "281",
           "startPlayer" : false,
-          "playerRefId" : 1,
+          "playerRefId" : 3,
           "rank" : 0,
+          "team" : "0",
           "newPlayer" : false
         }
       ],
@@ -6048,6 +6743,15 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
+          "winner" : true,
+          "seatOrder" : 0,
+          "score" : "259",
+          "startPlayer" : false,
+          "playerRefId" : 1,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
           "winner" : false,
           "seatOrder" : 0,
           "score" : "167",
@@ -6061,15 +6765,6 @@
           "winner" : false,
           "seatOrder" : 0,
           "score" : "222",
-          "startPlayer" : false,
-          "playerRefId" : 1,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : true,
-          "seatOrder" : 0,
-          "score" : "259",
           "startPlayer" : false,
           "playerRefId" : 1,
           "rank" : 0,
@@ -6098,6 +6793,16 @@
         {
           "winner" : false,
           "seatOrder" : 0,
+          "score" : "194",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
           "score" : "159",
           "startPlayer" : false,
           "playerRefId" : 1,
@@ -6111,16 +6816,6 @@
           "startPlayer" : false,
           "playerRefId" : 1,
           "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "194",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "team" : "0",
           "newPlayer" : false
         }
       ],
@@ -6144,18 +6839,18 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : false,
+          "winner" : true,
           "seatOrder" : 0,
-          "score" : "167",
+          "score" : "185",
           "startPlayer" : false,
           "playerRefId" : 1,
           "rank" : 0,
           "newPlayer" : false
         },
         {
-          "winner" : true,
+          "winner" : false,
           "seatOrder" : 0,
-          "score" : "185",
+          "score" : "167",
           "startPlayer" : false,
           "playerRefId" : 1,
           "rank" : 0,
@@ -6196,20 +6891,20 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "182",
-          "startPlayer" : false,
-          "playerRefId" : 1,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
           "score" : "177",
           "startPlayer" : false,
           "playerRefId" : 3,
           "rank" : 0,
           "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "182",
+          "startPlayer" : false,
+          "playerRefId" : 1,
+          "rank" : 0,
           "newPlayer" : false
         },
         {
@@ -6243,16 +6938,6 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "590",
-          "startPlayer" : false,
-          "playerRefId" : 2,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
           "winner" : true,
           "seatOrder" : 0,
           "score" : "810",
@@ -6268,6 +6953,16 @@
           "score" : "490",
           "startPlayer" : false,
           "playerRefId" : 6,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "590",
+          "startPlayer" : false,
+          "playerRefId" : 2,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -6305,12 +7000,13 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : false,
+          "winner" : true,
           "seatOrder" : 0,
-          "score" : "57",
+          "score" : "73",
           "startPlayer" : false,
-          "playerRefId" : 5,
+          "playerRefId" : 3,
           "rank" : 0,
+          "team" : "0",
           "newPlayer" : true
         },
         {
@@ -6325,20 +7021,19 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "70",
+          "score" : "57",
           "startPlayer" : false,
-          "playerRefId" : 2,
+          "playerRefId" : 5,
           "rank" : 0,
           "newPlayer" : true
         },
         {
-          "winner" : true,
+          "winner" : false,
           "seatOrder" : 0,
-          "score" : "73",
+          "score" : "70",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 2,
           "rank" : 0,
-          "team" : "0",
           "newPlayer" : true
         }
       ],
@@ -6365,9 +7060,9 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "187",
+          "score" : "135",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 4,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -6375,9 +7070,9 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "135",
+          "score" : "187",
           "startPlayer" : false,
-          "playerRefId" : 4,
+          "playerRefId" : 3,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -6595,16 +7290,6 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "117",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
           "score" : "179",
           "startPlayer" : false,
           "playerRefId" : 4,
@@ -6618,6 +7303,16 @@
           "score" : "234",
           "startPlayer" : false,
           "playerRefId" : 4,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "117",
+          "startPlayer" : false,
+          "playerRefId" : 3,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -6643,11 +7338,11 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : false,
+          "winner" : true,
           "seatOrder" : 0,
-          "score" : "224",
+          "score" : "263",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 4,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -6663,11 +7358,11 @@
           "newPlayer" : false
         },
         {
-          "winner" : true,
+          "winner" : false,
           "seatOrder" : 0,
-          "score" : "263",
+          "score" : "224",
           "startPlayer" : false,
-          "playerRefId" : 4,
+          "playerRefId" : 3,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -6744,21 +7439,21 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "193",
-          "startPlayer" : false,
-          "playerRefId" : 4,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
           "winner" : true,
           "seatOrder" : 0,
           "score" : "219",
           "startPlayer" : false,
           "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "193",
+          "startPlayer" : false,
+          "playerRefId" : 4,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -6831,15 +7526,6 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : true,
-          "seatOrder" : 0,
-          "score" : "205",
-          "startPlayer" : false,
-          "playerRefId" : 4,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
           "winner" : false,
           "seatOrder" : 0,
           "score" : "143",
@@ -6847,6 +7533,15 @@
           "playerRefId" : 3,
           "rank" : 0,
           "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : true,
+          "seatOrder" : 0,
+          "score" : "205",
+          "startPlayer" : false,
+          "playerRefId" : 4,
+          "rank" : 0,
           "newPlayer" : false
         }
       ],
@@ -6911,15 +7606,6 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "70",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
           "winner" : true,
           "seatOrder" : 0,
           "score" : "120",
@@ -6927,6 +7613,15 @@
           "playerRefId" : 1,
           "rank" : 0,
           "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "70",
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "newPlayer" : true
         }
       ],
       "modificationDate" : "2018-01-27 09:28:37",
@@ -6952,16 +7647,6 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "96",
-          "startPlayer" : false,
-          "playerRefId" : 1,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
           "score" : "122",
           "startPlayer" : false,
           "playerRefId" : 3,
@@ -6982,6 +7667,16 @@
         {
           "winner" : false,
           "seatOrder" : 0,
+          "score" : "111",
+          "startPlayer" : false,
+          "playerRefId" : 1,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
           "score" : "103",
           "startPlayer" : false,
           "playerRefId" : 1,
@@ -6992,7 +7687,7 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "111",
+          "score" : "96",
           "startPlayer" : false,
           "playerRefId" : 1,
           "rank" : 0,
@@ -7031,9 +7726,19 @@
           "newPlayer" : false
         },
         {
+          "winner" : true,
+          "seatOrder" : 0,
+          "score" : "128",
+          "startPlayer" : false,
+          "playerRefId" : 4,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "108",
+          "score" : "87",
           "startPlayer" : false,
           "playerRefId" : 1,
           "rank" : 0,
@@ -7053,19 +7758,9 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "87",
+          "score" : "108",
           "startPlayer" : false,
           "playerRefId" : 1,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
-          "winner" : true,
-          "seatOrder" : 0,
-          "score" : "128",
-          "startPlayer" : false,
-          "playerRefId" : 4,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -7122,21 +7817,21 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "112",
-          "startPlayer" : false,
-          "playerRefId" : 1,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
           "score" : "99",
           "startPlayer" : false,
           "playerRefId" : 3,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "112",
+          "startPlayer" : false,
+          "playerRefId" : 1,
+          "rank" : 0,
+          "newPlayer" : false
         }
       ],
       "modificationDate" : "2018-01-21 21:38:13",
@@ -7162,6 +7857,16 @@
           "winner" : false,
           "score" : "",
           "startPlayer" : false,
+          "playerRefId" : 10,
+          "role" : "Ranger",
+          "seatOrder" : 0,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "score" : "",
+          "startPlayer" : false,
           "playerRefId" : 12,
           "role" : "Rogue",
           "seatOrder" : 0,
@@ -7182,17 +7887,6 @@
           "winner" : false,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 3,
-          "role" : "Cleric",
-          "seatOrder" : 0,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "score" : "",
-          "startPlayer" : false,
           "playerRefId" : 11,
           "role" : "Wizard",
           "seatOrder" : 0,
@@ -7203,10 +7897,11 @@
           "winner" : false,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 10,
-          "role" : "Ranger",
+          "playerRefId" : 3,
+          "role" : "Cleric",
           "seatOrder" : 0,
           "rank" : 0,
+          "team" : "0",
           "newPlayer" : false
         }
       ],
@@ -7233,19 +7928,9 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "32",
+          "score" : "35",
           "startPlayer" : false,
-          "playerRefId" : 6,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : true
-        },
-        {
-          "winner" : true,
-          "seatOrder" : 0,
-          "score" : "45",
-          "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 2,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : true
@@ -7263,9 +7948,19 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "35",
+          "score" : "32",
           "startPlayer" : false,
-          "playerRefId" : 2,
+          "playerRefId" : 6,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : true
+        },
+        {
+          "winner" : true,
+          "seatOrder" : 0,
+          "score" : "45",
+          "startPlayer" : false,
+          "playerRefId" : 3,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : true
@@ -7353,25 +8048,16 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
           "playerRefId" : 12,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 10,
-          "rank" : 0,
-          "newPlayer" : false
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 11,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -7389,7 +8075,16 @@
           "seatOrder" : 0,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 11,
+          "rank" : 0,
+          "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 10,
           "rank" : 0,
           "newPlayer" : false
         },
@@ -7424,21 +8119,11 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : true,
-          "seatOrder" : 0,
-          "score" : "16",
-          "startPlayer" : false,
-          "playerRefId" : 18,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : false
-        },
-        {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "13",
+          "score" : "11",
           "startPlayer" : false,
-          "playerRefId" : 17,
+          "playerRefId" : 15,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -7456,9 +8141,9 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "11",
+          "score" : "13",
           "startPlayer" : false,
-          "playerRefId" : 15,
+          "playerRefId" : 17,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -7469,6 +8154,16 @@
           "score" : "12",
           "startPlayer" : false,
           "playerRefId" : 3,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : false
+        },
+        {
+          "winner" : true,
+          "seatOrder" : 0,
+          "score" : "16",
+          "startPlayer" : false,
+          "playerRefId" : 18,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : false
@@ -7493,6 +8188,16 @@
       "rating" : 0,
       "scoringSetting" : 0,
       "playerScores" : [
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "10",
+          "startPlayer" : false,
+          "playerRefId" : 18,
+          "rank" : 0,
+          "team" : "0",
+          "newPlayer" : true
+        },
         {
           "winner" : true,
           "seatOrder" : 0,
@@ -7519,16 +8224,6 @@
           "score" : "10",
           "startPlayer" : false,
           "playerRefId" : 3,
-          "rank" : 0,
-          "team" : "0",
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "10",
-          "startPlayer" : false,
-          "playerRefId" : 18,
           "rank" : 0,
           "team" : "0",
           "newPlayer" : true
@@ -7564,11 +8259,11 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : true,
+          "winner" : false,
           "seatOrder" : 0,
-          "score" : "36",
+          "score" : "27",
           "startPlayer" : false,
-          "playerRefId" : 15,
+          "playerRefId" : 18,
           "rank" : 0,
           "newPlayer" : true
         },
@@ -7591,11 +8286,11 @@
           "newPlayer" : true
         },
         {
-          "winner" : false,
+          "winner" : true,
           "seatOrder" : 0,
-          "score" : "27",
+          "score" : "36",
           "startPlayer" : false,
-          "playerRefId" : 18,
+          "playerRefId" : 15,
           "rank" : 0,
           "newPlayer" : true
         },
@@ -7631,6 +8326,24 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
+          "winner" : true,
+          "seatOrder" : 0,
+          "score" : "1",
+          "startPlayer" : false,
+          "playerRefId" : 17,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : null,
+          "startPlayer" : false,
+          "playerRefId" : 3,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
           "winner" : false,
           "seatOrder" : 0,
           "score" : null,
@@ -7654,24 +8367,6 @@
           "score" : null,
           "startPlayer" : false,
           "playerRefId" : 16,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : true,
-          "seatOrder" : 0,
-          "score" : "1",
-          "startPlayer" : false,
-          "playerRefId" : 17,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : null,
-          "startPlayer" : false,
-          "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : true
         }
@@ -7701,6 +8396,15 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
+          "playerRefId" : 17,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : null,
+          "startPlayer" : false,
           "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : true
@@ -7720,15 +8424,6 @@
           "score" : null,
           "startPlayer" : false,
           "playerRefId" : 16,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : null,
-          "startPlayer" : false,
-          "playerRefId" : 17,
           "rank" : 0,
           "newPlayer" : true
         },
@@ -7766,18 +8461,8 @@
           "winner" : false,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 8,
-          "role" : "DM",
-          "seatOrder" : 0,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 13,
-          "role" : "Dragonborn Paladin",
+          "playerRefId" : 14,
+          "role" : "Elf Rogue",
           "seatOrder" : 0,
           "rank" : 0,
           "newPlayer" : true
@@ -7796,8 +8481,8 @@
           "winner" : false,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 14,
-          "role" : "Elf Rogue",
+          "playerRefId" : 10,
+          "role" : "Elf Ranger",
           "seatOrder" : 0,
           "rank" : 0,
           "newPlayer" : true
@@ -7806,18 +8491,8 @@
           "winner" : false,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 12,
-          "role" : "Dwarf Rogue",
-          "seatOrder" : 0,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "score" : "",
-          "startPlayer" : false,
-          "playerRefId" : 11,
-          "role" : "Gnome Wizard",
+          "playerRefId" : 8,
+          "role" : "DM",
           "seatOrder" : 0,
           "rank" : 0,
           "newPlayer" : true
@@ -7836,8 +8511,28 @@
           "winner" : false,
           "score" : "",
           "startPlayer" : false,
-          "playerRefId" : 10,
-          "role" : "Elf Ranger",
+          "playerRefId" : 11,
+          "role" : "Gnome Wizard",
+          "seatOrder" : 0,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 13,
+          "role" : "Dragonborn Paladin",
+          "seatOrder" : 0,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "score" : "",
+          "startPlayer" : false,
+          "playerRefId" : 12,
+          "role" : "Dwarf Rogue",
           "seatOrder" : 0,
           "rank" : 0,
           "newPlayer" : true
@@ -8038,20 +8733,20 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "115",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
           "winner" : true,
           "seatOrder" : 0,
           "score" : "117",
           "startPlayer" : false,
           "playerRefId" : 5,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "115",
+          "startPlayer" : false,
+          "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : true
         }
@@ -8149,16 +8844,6 @@
       "playerScores" : [
         {
           "winner" : false,
-          "score" : "175",
-          "startPlayer" : false,
-          "playerRefId" : 7,
-          "role" : "Ararod",
-          "seatOrder" : 0,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
           "score" : "",
           "startPlayer" : false,
           "playerRefId" : 3,
@@ -8166,6 +8851,16 @@
           "seatOrder" : 0,
           "rank" : 0,
           "newPlayer" : false
+        },
+        {
+          "winner" : false,
+          "score" : "175",
+          "startPlayer" : false,
+          "playerRefId" : 7,
+          "role" : "Ararod",
+          "seatOrder" : 0,
+          "rank" : 0,
+          "newPlayer" : true
         }
       ],
       "modificationDate" : "2018-02-25 21:36:53",
@@ -8191,24 +8886,6 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
-          "winner" : true,
-          "seatOrder" : 0,
-          "score" : "149",
-          "startPlayer" : false,
-          "playerRefId" : 2,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "109",
-          "startPlayer" : false,
-          "playerRefId" : 3,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
           "winner" : false,
           "seatOrder" : 0,
           "score" : "134",
@@ -8223,6 +8900,24 @@
           "score" : "115",
           "startPlayer" : false,
           "playerRefId" : 6,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : true,
+          "seatOrder" : 0,
+          "score" : "149",
+          "startPlayer" : false,
+          "playerRefId" : 2,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "109",
+          "startPlayer" : false,
+          "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : true
         }
@@ -8260,7 +8955,7 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 5,
           "rank" : 0,
           "newPlayer" : true
         },
@@ -8278,7 +8973,7 @@
           "seatOrder" : 0,
           "score" : null,
           "startPlayer" : false,
-          "playerRefId" : 5,
+          "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : true
         }
@@ -8304,6 +8999,15 @@
       "scoringSetting" : 0,
       "playerScores" : [
         {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "40",
+          "startPlayer" : false,
+          "playerRefId" : 2,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
           "winner" : true,
           "seatOrder" : 0,
           "score" : "61",
@@ -8315,9 +9019,9 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "40",
+          "score" : "39",
           "startPlayer" : false,
-          "playerRefId" : 2,
+          "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : true
         },
@@ -8327,15 +9031,6 @@
           "score" : "57",
           "startPlayer" : false,
           "playerRefId" : 5,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "39",
-          "startPlayer" : false,
-          "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : true
         }
@@ -8363,9 +9058,9 @@
         {
           "winner" : false,
           "seatOrder" : 0,
-          "score" : "39",
+          "score" : "32",
           "startPlayer" : false,
-          "playerRefId" : 3,
+          "playerRefId" : 5,
           "rank" : 0,
           "newPlayer" : true
         },
@@ -8379,20 +9074,20 @@
           "newPlayer" : true
         },
         {
-          "winner" : false,
-          "seatOrder" : 0,
-          "score" : "32",
-          "startPlayer" : false,
-          "playerRefId" : 5,
-          "rank" : 0,
-          "newPlayer" : true
-        },
-        {
           "winner" : true,
           "seatOrder" : 0,
           "score" : "40",
           "startPlayer" : false,
           "playerRefId" : 6,
+          "rank" : 0,
+          "newPlayer" : true
+        },
+        {
+          "winner" : false,
+          "seatOrder" : 0,
+          "score" : "39",
+          "startPlayer" : false,
+          "playerRefId" : 3,
           "rank" : 0,
           "newPlayer" : true
         }
@@ -8484,6 +9179,12 @@
       "modificationDate" : "2018-11-02 20:12:28",
       "name" : "Chelt-Fest 18 HQ",
       "uuid" : "99C9D47C-02F4-41C0-A106-5500DBF3E704"
+    },
+    {
+      "id" : 13,
+      "modificationDate" : "2018-12-01 22:28:56",
+      "name" : "Dragonmeet 2018",
+      "uuid" : "74A329E8-6C58-4C2C-BFE7-3D8091CCB629"
     }
   ],
   "players" : [
@@ -8727,6 +9428,14 @@
       "modificationDate" : "2018-11-03 14:15:40",
       "name" : "Antonia",
       "uuid" : "FD57AE77-28B4-4A19-AC68-B91A6947A720"
+    },
+    {
+      "id" : 33,
+      "isAnonymous" : false,
+      "modificationDate" : "2018-12-16 20:59:28",
+      "name" : "Simon God Of Orks",
+      "bggUsername" : "",
+      "uuid" : "BCCAAC10-770F-4ED0-A953-2A1D7AE0DA51"
     }
   ]
 }
