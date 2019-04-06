@@ -7,17 +7,15 @@ date: "2018-03-10"
 > ― **Don Walsh**  
 
  
-Welcome to my personal learning journal where I share snippets of code, works-in-progress, thoughts, experiments, analyses, wrangling, visualizing, modelling and anything else I play around with that falls broadly into the category of scientific exploration or doing things with data.  
+Welcome to my personal learning journal where I share snippets of code, works-in-progress, thoughts, experiments, analyses, wrangling, visualizing, modelling and anything else I do with data.  
 
-I'm Australian born, New Guinea raised, living in London.    
+I've found this site useful to store things I learn and mistakes I've made.    
 
-I have worked in factories, farms, juice stations, theatres, bars and offices.   
+I'm Australian born, New Guinea raised, living in Adelaide.      
 
-I now work at [Publicis.Sapient](https://publicis.sapient.com/content/psredesign/en-us.html).   
+I have worked in factories, farms, juice stations, theatres, bars and offices.     
 
-Some things I like include heavy metal on 10, chilli, cybermen, tabletop roleplaying games and whisky.         
-   
-
+Some things I like include heavy metal on 10, chilli, cybermen, tabletop roleplaying games and whisky.   
 
 **CREDITS:**  
 
