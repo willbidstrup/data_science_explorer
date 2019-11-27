@@ -17,6 +17,8 @@ I have worked in factories, farms, juice stations, theatres, bars and offices.
 
 Some things I like include heavy metal on 10, chilli, cybermen, tabletop roleplaying games and whisky.   
 
+Something new \m/ 
+
 **CREDITS:**  
 
 Thanks to [blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/) for explaining how to set this website up.   
