@@ -6,10 +6,27 @@
     <description>Recent content in Python on Data Science Explorer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python and probability</title>
+      <link>/post/python-and-probability/</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/python-and-probability/</guid>
+      <description>This is a notebook for practicing Python and testing some probability problems.
+Things to remember Python vs R Python indents and spacing matter
+Python no curly braces in functions
+Python is 0 indexed
+Python can multiply strings Python is left inclusive and right exclusive
+Python is object oriented Python &amp;ldquo;.&amp;rdquo; are important
+Python pass objects to functions and use methods on objects
+Lists and dictionaries are important
+Create list with []</description>
+    </item>
     
     <item>
       <title>Setting up Jupyter notebooks</title>
